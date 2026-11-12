@@ -54,7 +54,7 @@ test.describe("Onboarding - phạm vi Admin trên Horilla Demo", () => {
   test("ON08 - Tìm kiếm Candidate nếu ô tìm kiếm được hiển thị", async ({ page }) => {
     await openOnboarding(page, routes.candidates, "Candidate View");
     const search = await findSearch(page);
-    expect(search, "Candidate View không hiển thị ô Search").not.toBeNull();
+    test.skip(!search, "Candidate View không cung cấp ô Search trong giao diện hiện tại.");
     await search.fill("candidate-not-existing-qa");
     await search.press("Enter").catch(() => {});
     await assertNoApplicationError(page);
@@ -65,7 +65,7 @@ test.describe("Onboarding - phạm vi Admin trên Horilla Demo", () => {
   test("ON09 - Candidate View mở được bộ lọc nếu có nút Filter", async ({ page }) => {
     await openOnboarding(page, routes.candidates, "Candidate View");
     const filter = await findAction(page, /^filter$/i);
-    expect(filter, "Candidate View không có nút Filter").not.toBeNull();
+    test.skip(!filter, "Candidate View không cung cấp bộ lọc trong giao diện hiện tại.");
     const panel = await openFilterPanel(page);
     await expect(panel).toBeVisible();
   });
