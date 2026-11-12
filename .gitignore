@@ -1,8 +1,8 @@
-# Logs
-
-
 node_modules
 test-results
 Test Report - Group 12
 Envidence - Group12
 
+# Playwright authentication state (contains session cookies)
+**/playwright/.auth/
+**/.auth/*.json

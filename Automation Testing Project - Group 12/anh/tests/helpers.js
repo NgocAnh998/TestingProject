@@ -16,15 +16,18 @@ async function firstVisible(locator) {
 }
 
 async function closeBlockingNotification(page) {
-  // Horilla đôi khi giữ drawer All Notifications mở từ storage/session trước đó.
-  const drawerText = page.getByText(/all notifications/i).first();
-  if (!(await drawerText.isVisible().catch(() => false))) return;
+  // Horilla mở All Notifications như một drawer; nút mũi tên nằm ngay trong heading.
+  // Không tìm nút Close toàn trang vì có thể chọn nhầm nút của drawer khác.
+  const heading = await firstVisible(page.getByRole("heading", { name: /all notifications/i }));
+  if (!heading) return;
 
-  const close = await firstVisible(page.getByRole("button", { name: /close|dismiss/i }))
-    || await firstVisible(page.locator('button[aria-label*="close" i], [role="button"][aria-label*="close" i]'));
-  if (close) {
-    await close.click().catch(() => {});
-    await expect(drawerText).toBeHidden({ timeout: 5000 }).catch(() => {});
+  const clearAll = await firstVisible(page.getByRole("button", { name: /^clear all$/i }));
+  if (!clearAll) return; // Drawer đã thu gọn.
+
+  const toggle = await firstVisible(heading.getByRole("button"));
+  if (toggle) {
+    await toggle.click({ timeout: 5000 }).catch(() => {});
+    await expect(clearAll).toBeHidden({ timeout: 5000 }).catch(() => {});
   }
 }
 
@@ -66,11 +69,12 @@ async function openPage(page, route, moduleName, pageName) {
 
 async function findAction(page, pattern, scope = page) {
   const regex = pattern instanceof RegExp ? pattern : new RegExp(pattern, "i");
-  const loose = new RegExp(regex.source.replace(/^\^/, "").replace(/\$$/, ""), regex.flags.replace("g", ""));
+  const loose = new RegExp(regex.source.replace(/^\^/, "").replace(/\$/, ""), regex.flags.replace("g", ""));
   return await firstVisible(scope.getByRole("button", { name: loose }))
     || await firstVisible(scope.getByRole("link", { name: loose }))
-    || await firstVisible(scope.getByRole("listitem", { name: loose }))
-    || await firstVisible(scope.locator("a,button,[role=button],li").filter({ hasText: loose }));
+    // Một số nút Horilla có text ngắn nhưng accessible name bị ghép thêm alt của icon.
+    || await firstVisible(scope.locator("button, [role=button], a").filter({ hasText: loose }))
+    || await firstVisible(scope.getByRole("listitem", { name: loose }));
 }
 
 async function findSearch(page) {
@@ -81,29 +85,65 @@ async function findSearch(page) {
 
 async function findFilterPanel(page) {
   const heading = await firstVisible(page.getByRole("heading", { name: /^filter\b/i }));
-  const text = await firstVisible(page.getByText(/^filter$/i));
+  const text = await firstVisible(page.getByText(/^filter\b/i));
   const anchor = heading || text;
   if (!anchor) return null;
 
-  // Tìm container gần nhất có nút Close; fallback là vùng chứa heading Filter.
-  const panel = anchor.locator("xpath=ancestor::*[.//button[normalize-space()='Close'] or .//*[@role='button' and contains(translate(@aria-label,'CLOSE','close'),'close')]][1]");
+  // Nút Close của Horilla thường đặt icon/alt bên trong button, không có text node
+  // "Close". Tìm container theo heading và các control của form thay vì text nút.
+  const panel = anchor.locator("xpath=ancestor::div[.//input or .//select or .//textarea][1]");
   return await firstVisible(panel) || anchor;
 }
 
 async function openFilterPanel(page) {
   let panel = await findFilterPanel(page);
-  if (panel && await panel.isVisible().catch(() => false)) return panel;
+  const isOpen = async (candidate) => {
+    if (!candidate) return false;
+    return candidate.evaluate((element) => element.classList.contains("oh-filter-panel--open"))
+      .catch(() => false);
+  };
 
-  const button = await findAction(page, /^filter$/i);
+  // Horilla keeps the drawer in the DOM while it is closed; isVisible() alone
+  // cannot distinguish the off-canvas state from the open state.
+  if (await isOpen(panel)) return panel;
+
+  const button = await firstVisible(page.locator("#modernFilterTrigger"))
+    || await findAction(page, /^filter$/i);
   expect(button, "Trang không có nút Filter khả dụng").not.toBeNull();
   await button.click();
+
   await expect.poll(async () => {
     const candidate = await findFilterPanel(page);
-    return Boolean(candidate && await candidate.isVisible().catch(() => false));
-  }, { message: "Nhấn Filter nhưng bảng bộ lọc không xuất hiện", timeout: 10000 }).toBeTruthy();
+    return isOpen(candidate);
+  }, {
+    message: "Nhấn Filter nhưng drawer không chuyển sang trạng thái mở",
+    timeout: 10000,
+  }).toBeTruthy();
+
   panel = await findFilterPanel(page);
   expect(panel).not.toBeNull();
   return panel;
+}
+
+async function closeFilterPanel(page, panel) {
+  const panelLocator = panel || page.locator("#modernFilterPanel");
+  await expect.poll(() => panelLocator.evaluate(
+    (element) => element.classList.contains("oh-filter-panel--open")
+  )).toBe(true);
+
+  const close = await firstVisible(panelLocator.locator(".oh-filter-panel__close"))
+    || await findAction(page, /^close$/i, panelLocator);
+  expect(close, "Không tìm thấy nút đóng bảng bộ lọc").not.toBeNull();
+
+  // The close icon may be outside the viewport because the drawer uses a
+  // translateX transition. Trigger the real button handler, then check state.
+  await close.click();
+  await expect.poll(() => panelLocator.evaluate(
+    (element) => element.classList.contains("oh-filter-panel--open")
+  ), {
+    message: "Drawer vẫn ở trạng thái mở sau khi nhấn Close",
+    timeout: 10000,
+  }).toBe(false);
 }
 
 async function hasVisibleLocator(locator) {
@@ -115,23 +155,38 @@ async function hasVisibleLocator(locator) {
 }
 
 async function assertListOrEmpty(page) {
-  const structured = page.locator(
-    "table:visible, [role=table]:visible, [role=grid]:visible, [class*=kanban]:visible, [class*=pipeline]:visible, [class*=list-view]:visible, [class*=oh-sticky-table]:visible, [class*=oh-card]:visible, [class*=card-container]:visible",
-  );
-  const body = (await page.locator("body").innerText()).replace(/\s+/g, " ");
-  const empty = /no data|no records|no .* found|empty|không có dữ liệu|không tìm thấy|chưa có/i.test(body);
-  const search = await findSearch(page);
-  const filter = await findAction(page, /^filter$/i);
-  const list = await findAction(page, /^list$/i);
-  const card = await findAction(page, /^card$/i);
-  const moduleContent = /attendance|monthly summary|onboarding|candidate|exit process|offboarding/i.test(body);
-  const renderedListView = Boolean(moduleContent && (search || filter || list || card));
-  const hasStructure = await hasVisibleLocator(structured);
+  // Một số trang Horilla nạp bảng bằng AJAX sau khi DOM đã sẵn sàng.
+  // Chờ cấu trúc danh sách hoặc trạng thái rỗng thay vì kiểm tra ngay lập tức.
+  const structured = page.locator([
+    "table:visible",
+    "[role=table]:visible",
+    "[role=grid]:visible",
+    "[role=row]:visible",
+    ".oh-sticky-table:visible",
+    ".oh-sticky-table__tr:visible",
+    "[class*=oh-table]:visible",
+    "[class*=table-responsive]:visible",
+    "[class*=kanban]:visible",
+    "[class*=pipeline]:visible",
+    "[class*=list-view]:visible",
+    "[class*=oh-card]:visible",
+    "[class*=card-container]:visible",
+    "[class*=attendance-list]:visible",
+    ".list-group:visible",
+    ".pagination:visible",
+    ".apexcharts-canvas:visible",
+    "canvas:visible",
+  ].join(", "));
+  const emptyPattern = /no data|no records|no results|no .* (found|available)|empty|không có dữ liệu|không tìm thấy|chưa có/i;
 
-  expect(
-    hasStructure || empty || renderedListView,
-    "Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ",
-  ).toBeTruthy();
+  await expect.poll(async () => {
+    const body = (await page.locator("body").innerText().catch(() => "")).replace(/\s+/g, " ");
+    return (await hasVisibleLocator(structured)) || emptyPattern.test(body);
+  }, {
+    message: "Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng",
+    timeout: 15000,
+    intervals: [250, 500, 1000, 1500],
+  }).toBeTruthy();
 }
 
 async function assertNoApplicationError(page) {
@@ -156,6 +211,7 @@ module.exports = {
   findSearch,
   findFilterPanel,
   openFilterPanel,
+  closeFilterPanel,
   assertListOrEmpty,
   assertNoApplicationError,
   reloadAndVerify,
