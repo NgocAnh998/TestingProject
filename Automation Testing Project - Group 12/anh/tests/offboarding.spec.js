@@ -124,14 +124,16 @@ test.describe("Offboarding - phạm vi Admin trên Horilla Demo", () => {
     await closeFilterPanel(page, panel);
   });
 
-  test("OF15 - Bộ lọc có thể xóa điều kiện lọc", async ({ page }) => {
+  test("OF15 - Nút Clear all của bộ lọc có thể thao tác", async ({ page }) => {
     await openExitProcess(page);
     const panel = await openFilterPanel(page);
-    const clear = await findAction(page, /^clear all$/i, panel);
-    test.skip(!clear, "Bảng lọc không cung cấp nút Clear all.");
-    await clear.click({ force: true });
-    await expect(panel).toBeVisible();
+    const clear = panel.locator(".oh-filter-panel__clear");
+    test.skip(await clear.count() === 0, "Bảng lọc không cung cấp nút Clear all.");
+
+    await expect(clear).toBeVisible();
+    await clear.click();
     await assertNoApplicationError(page);
+    await expect(page.locator("body")).toContainText(/exit process|offboarding/i);
   });
 
   test("OF16 - Chế độ List hiển thị danh sách Exit Process", async ({ page }) => {
