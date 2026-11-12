@@ -120,7 +120,8 @@ async function hasVisibleLocator(locator) {
 }
 
 async function assertListOrEmpty(page) {
-  // Hỗ trợ cả bảng HTML, bảng dạng div của Horilla, kanban/card và biểu đồ tổng hợp.
+  // Một số trang Horilla nạp bảng bằng AJAX sau khi DOM đã sẵn sàng.
+  // Chờ cấu trúc danh sách hoặc trạng thái rỗng thay vì kiểm tra ngay lập tức.
   const structured = page.locator([
     "table:visible",
     "[role=table]:visible",
@@ -129,22 +130,42 @@ async function assertListOrEmpty(page) {
     ".oh-sticky-table:visible",
     ".oh-sticky-table__tr:visible",
     "[class*=oh-table]:visible",
+    "[class*=table-responsive]:visible",
     "[class*=kanban]:visible",
     "[class*=pipeline]:visible",
     "[class*=list-view]:visible",
     "[class*=oh-card]:visible",
     "[class*=card-container]:visible",
+    "[class*=attendance-list]:visible",
+    ".list-group:visible",
+    ".pagination:visible",
     ".apexcharts-canvas:visible",
     "canvas:visible",
   ].join(", "));
-  const body = (await page.locator("body").innerText()).replace(/\s+/g, " ");
-  const empty = /no data|no records|no results|no .* (found|available)|empty|không có dữ liệu|không tìm thấy|chưa có/i.test(body);
-  const hasStructure = await hasVisibleLocator(structured);
+  const emptyPattern = /no data|no records|no results|no .* (found|available)|empty|không có dữ liệu|không tìm thấy|chưa có/i;
 
-  expect(
-    hasStructure || empty,
-    "Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng",
-  ).toBeTruthy();
+  await expect.poll(async () => {
+    const body = (await page.locator("body").innerText().catch(() => "")).replace(/\s+/g, " ");
+    return (await hasVisibleLocator(structured)) || emptyPattern.test(body);
+  }, {
+    message: "Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng",
+    timeout: 15000,
+    intervals: [250, 500, 1000, 1500],
+  }).toBeTruthy();
+}
+
+async function closeFilterPanel(page, panel) {
+  // Nút đóng filter drawer của Horilla đôi khi nằm ngoài viewport dù drawer đang mở.
+  // Dùng selector đặc trưng và force click để không bị lỗi do vị trí cuộn.
+  const close = await firstVisible(page.locator(".oh-filter-panel__close"))
+    || await findAction(page, /^close$/i, panel || page);
+
+  expect(close, "Không tìm thấy nút đóng bảng bộ lọc").not.toBeNull();
+  await close.click({ force: true });
+  await expect.poll(async () => !(await (panel || page.locator(".oh-filter-panel")).isVisible().catch(() => false)), {
+    message: "Bảng bộ lọc vẫn hiển thị sau khi nhấn Close",
+    timeout: 10000,
+  }).toBeTruthy();
 }
 
 async function assertNoApplicationError(page) {
@@ -169,6 +190,7 @@ module.exports = {
   findSearch,
   findFilterPanel,
   openFilterPanel,
+  closeFilterPanel,
   assertListOrEmpty,
   assertNoApplicationError,
   reloadAndVerify,
