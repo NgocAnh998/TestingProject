@@ -161,11 +161,9 @@ async function closeFilterPanel(page, panel) {
     || await findAction(page, /^close$/i, panel || page);
 
   expect(close, "Không tìm thấy nút đóng bảng bộ lọc").not.toBeNull();
-  await close.click({ force: true });
-  await expect.poll(async () => !(await (panel || page.locator(".oh-filter-panel")).isVisible().catch(() => false)), {
-    message: "Bảng bộ lọc vẫn hiển thị sau khi nhấn Close",
-    timeout: 10000,
-  }).toBeTruthy();
+  // Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.
+  await close.evaluate((element) => element.click());
+  await expect(panel || page.locator(".oh-filter-panel")).toBeHidden({ timeout: 10000 });
 }
 
 async function assertNoApplicationError(page) {
