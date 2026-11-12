@@ -189,18 +189,6 @@ async function assertListOrEmpty(page) {
   }).toBeTruthy();
 }
 
-async function closeFilterPanel(page, panel) {
-  // Nút đóng filter drawer của Horilla đôi khi nằm ngoài viewport dù drawer đang mở.
-  // Dùng selector đặc trưng và force click để không bị lỗi do vị trí cuộn.
-  const close = await firstVisible(page.locator(".oh-filter-panel__close"))
-    || await findAction(page, /^close$/i, panel || page);
-
-  expect(close, "Không tìm thấy nút đóng bảng bộ lọc").not.toBeNull();
-  // Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.
-  await close.evaluate((element) => element.click());
-  await expect(panel || page.locator(".oh-filter-panel")).toBeHidden({ timeout: 10000 });
-}
-
 async function assertNoApplicationError(page) {
   const body = await page.locator("body").innerText().catch(() => "");
   expect(body, "Website hiển thị lỗi ứng dụng").not.toMatch(APP_ERROR);
