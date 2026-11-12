@@ -1,348 +1,708 @@
-<testsuites id="" name="" tests="33" failures="1" skipped="0" errors="1" time="643.183858">
-<testsuite name="anh\tests\attendance.spec.js" timestamp="2026-11-12T16:47:18.596Z" hostname="anh" tests="14" failures="1" skipped="0" time="281.98" errors="1">
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT01 - Mở trang Attendance" classname="anh\tests\attendance.spec.js" time="16.326">
+<testsuites id="" name="" tests="63" failures="4" skipped="0" errors="1" time="1148.1757690000002">
+<testsuite name="anh\tests\attendance.spec.js" timestamp="2026-11-12T17:56:35.014Z" hostname="anh" tests="21" failures="2" skipped="0" time="379.464" errors="0">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT01 - Mở trang Attendance" classname="anh\tests\attendance.spec.js" time="19.484">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT02 - Dashboard có vùng nội dung tổng quan" classname="anh\tests\attendance.spec.js" time="17.946">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT02 - Dashboard có vùng nội dung tổng quan" classname="anh\tests\attendance.spec.js" time="16.866">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT03 - Dashboard không hiển thị lỗi ứng dụng" classname="anh\tests\attendance.spec.js" time="18.438">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT03 - Dashboard không hiển thị lỗi ứng dụng" classname="anh\tests\attendance.spec.js" time="16.355">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT04 - Mở My Attendances" classname="anh\tests\attendance.spec.js" time="15.801">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT04 - Mở My Attendances" classname="anh\tests\attendance.spec.js" time="16.336">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT05 - My Attendances hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\attendance.spec.js" time="16.235">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT05 - My Attendances hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\attendance.spec.js" time="15.521">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT06 - My Attendances có các cột thông tin chấm công" classname="anh\tests\attendance.spec.js" time="24.922">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT06 - My Attendances có các cột thông tin chấm công" classname="anh\tests\attendance.spec.js" time="15.565">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT07 - Bộ lọc My Attendances hiển thị các trường chấm công" classname="anh\tests\attendance.spec.js" time="15.843">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT07 - Bộ lọc My Attendances hiển thị các trường chấm công" classname="anh\tests\attendance.spec.js" time="15.685">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT08 - Mở bảng bộ lọc My Attendances" classname="anh\tests\attendance.spec.js" time="17.587">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT08 - Mở bảng bộ lọc My Attendances" classname="anh\tests\attendance.spec.js" time="16.019">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT09 - Đóng bảng bộ lọc My Attendances" classname="anh\tests\attendance.spec.js" time="35.62">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT09 - Đóng bảng bộ lọc My Attendances" classname="anh\tests\attendance.spec.js" time="27.12">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\test-failed-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\test-failed-1.png]]
 
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\video.webm]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\video.webm]]
 
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\error-context.md]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\error-context.md]]
 
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip]]
 ]]>
 </system-out>
-<error message="locator.click: Timeout 20000ms exceeded." type="TimeoutError">
-<![CDATA[  [anh] › anh\tests\attendance.spec.js:66:3 › Attendance - phạm vi Admin trên Horilla Demo › AT09 - Đóng bảng bộ lọc My Attendances 
+<failure message="expect(locator).toBeHidden() failed" type="expect.toBeHidden">
+<![CDATA[  [anh] › anh\tests\attendance.spec.js:70:3 › Attendance - phạm vi Admin trên Horilla Demo › AT09 - Đóng bảng bộ lọc My Attendances 
 
-    TimeoutError: locator.click: Timeout 20000ms exceeded.
+    Error: expect(locator).toBeHidden() failed
+
+    Locator:  getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()
+    Expected: hidden
+    Received: visible
+    Timeout:  10000ms
+
     Call log:
-      - waiting for getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /close/i }).first()
-        - locator resolved to <button type="button" aria-label="Close" class="oh-filter-panel__close" onclick="toggleModernFilterPanel(false)">…</button>
-      - attempting click action
-        2 × waiting for element to be visible, enabled and stable
-          - element is visible, enabled and stable
-          - scrolling into view if needed
-          - done scrolling
-          - element is outside of the viewport
-        - retrying click action
-        - waiting 20ms
-        2 × waiting for element to be visible, enabled and stable
-          - element is visible, enabled and stable
-          - scrolling into view if needed
-          - done scrolling
-          - element is outside of the viewport
-        - retrying click action
-          - waiting 100ms
-        38 × waiting for element to be visible, enabled and stable
-           - element is visible, enabled and stable
-           - scrolling into view if needed
-           - done scrolling
-           - element is outside of the viewport
-         - retrying click action
-           - waiting 500ms
+      - Expect "toBeHidden" getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms
+      - waiting for getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()
+        23 × locator resolved to <div id="modernFilterPanel" class="oh-filter-panel">…</div>
+           - unexpected value "visible"
 
 
-      69 |     const close = await findAction(page, /^close$/i, panel);
-      70 |     expect(close, "Bảng bộ lọc không có nút Close").not.toBeNull();
-    > 71 |     await close.click();
-         |                 ^
-      72 |     await expect(panel).toBeHidden();
-      73 |   });
-      74 |
-        at D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:71:17
+       at anh\tests\helpers.js:166
+
+      164 |   // Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.
+      165 |   await close.evaluate((element) => element.click());
+    > 166 |   await expect(panel || page.locator(".oh-filter-panel")).toBeHidden({ timeout: 10000 });
+          |                                                           ^
+      167 | }
+      168 |
+      169 | async function assertNoApplicationError(page) {
+        at closeFilterPanel (D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\helpers.js:166:59)
+        at D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:73:5
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\test-failed-1.png
+    test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\test-failed-1.png
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
     attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\video.webm
+    test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-    Error Context: test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\error-context.md
+    Error Context: test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\error-context.md
 
     attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
-    test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip
+    test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip
     Usage:
 
-        npx playwright show-trace test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip
-
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-]]>
-</error>
-</testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT10 - Bảng bộ lọc có thể thao tác với trường lọc" classname="anh\tests\attendance.spec.js" time="16.428">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT11 - Mở Monthly Summary" classname="anh\tests\attendance.spec.js" time="16.068">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT12 - Monthly Summary hiển thị dữ liệu hoặc trạng thái rỗng" classname="anh\tests\attendance.spec.js" time="15.826">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT13 - Tải lại My Attendances không phát sinh lỗi" classname="anh\tests\attendance.spec.js" time="27.072">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\test-failed-1.png]]
-
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\video.webm]]
-
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\error-context.md]]
-
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\trace.zip]]
-]]>
-</system-out>
-<failure message="Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng" type="expect.toBeTruthy">
-<![CDATA[  [anh] › anh\tests\attendance.spec.js:95:3 › Attendance - phạm vi Admin trên Horilla Demo › AT13 - Tải lại My Attendances không phát sinh lỗi 
-
-    Error: Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng
-
-    expect(received).toBeTruthy()
-
-    Received: false
-
-       at anh\tests\helpers.js:147
-
-      145 |     hasStructure || empty,
-      146 |     "Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng",
-    > 147 |   ).toBeTruthy();
-          |     ^
-      148 | }
-      149 |
-      150 | async function assertNoApplicationError(page) {
-        at assertListOrEmpty (D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\helpers.js:147:5)
-        at D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:98:5
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\error-context.md
-
-    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
-    test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\trace.zip
-    Usage:
-
-        npx playwright show-trace test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\trace.zip
+        npx playwright show-trace test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 ]]>
 </failure>
 </testcase>
-<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT14 - Tải lại Monthly Summary không phát sinh lỗi" classname="anh\tests\attendance.spec.js" time="27.868">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT10 - Bảng bộ lọc có thể thao tác với trường lọc" classname="anh\tests\attendance.spec.js" time="15.811">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT11 - Mở Monthly Summary" classname="anh\tests\attendance.spec.js" time="16.507">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT12 - Monthly Summary hiển thị dữ liệu hoặc trạng thái rỗng" classname="anh\tests\attendance.spec.js" time="15.979">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT13 - Tải lại My Attendances không phát sinh lỗi" classname="anh\tests\attendance.spec.js" time="26.612">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT14 - Tải lại Monthly Summary không phát sinh lỗi" classname="anh\tests\attendance.spec.js" time="26.979">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT15 - Mở trang Attendances dành cho Admin" classname="anh\tests\attendance.spec.js" time="15.318">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-b3114--Attendances-dành-cho-Admin-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT16 - Attendances hiển thị bảng hoặc trạng thái không có dữ liệu" classname="anh\tests\attendance.spec.js" time="15.45">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-ab12d-trạng-thái-không-có-dữ-liệu-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT17 - Attendances có thông tin nhân viên và thời gian chấm công" classname="anh\tests\attendance.spec.js" time="15.791">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-d3e41-viên-và-thời-gian-chấm-công-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT18 - Mở Attendance Requests" classname="anh\tests\attendance.spec.js" time="15.739">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-368a2-18---Mở-Attendance-Requests-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT19 - Attendance Requests hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\attendance.spec.js" time="16.876">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-ec31a-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT20 - Attendance Requests hiển thị thông tin xử lý yêu cầu" classname="anh\tests\attendance.spec.js" time="17.557">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-756a2-thị-thông-tin-xử-lý-yêu-cầu-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT21 - Mở Daily Work Status và kiểm tra dữ liệu" classname="anh\tests\attendance.spec.js" time="21.894">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Website không mở đúng trang Daily Work Status" type="expect.toBe">
+<![CDATA[  [anh] › anh\tests\attendance.spec.js:141:3 › Attendance - phạm vi Admin trên Horilla Demo › AT21 - Mở Daily Work Status và kiểm tra dữ liệu 
+
+    Error: Website không mở đúng trang Daily Work Status
+
+    Website không mở đúng trang Daily Work Status
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "/attendance/work-status/"
+    Received: "/attendance/monthly-summary/"
+
+    Call Log:
+    - Timeout 15000ms exceeded while waiting on the predicate
+
+       at anh\tests\helpers.js:64
+
+      62 |     message: `Website không mở đúng trang ${pageName || moduleName}`,
+      63 |     timeout: 15000,
+    > 64 |   }).toBe(expected.pathname);
+         |      ^
+      65 |
+      66 |   await waitForPageContent(page, moduleName, pageName);
+      67 |   await assertNoApplicationError(page);
+        at openPage (D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\helpers.js:64:6)
+        at openAttendance (D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:18:3)
+        at D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:142:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-12T17-56-34-980Z\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="anh\tests\offboarding.spec.js" timestamp="2026-11-12T17:56:35.014Z" hostname="anh" tests="21" failures="1" skipped="0" time="376.874" errors="1">
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF01 - Mở Exit Process" classname="anh\tests\offboarding.spec.js" time="16.261">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF02 - Exit Process hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\offboarding.spec.js" time="15.624">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF03 - Exit Process có ô tìm kiếm" classname="anh\tests\offboarding.spec.js" time="17.12">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF04 - Tìm kiếm trong Exit Process không gây lỗi" classname="anh\tests\offboarding.spec.js" time="16.405">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF05 - Chuyển đổi chế độ List và Card nếu các nút được cung cấp" classname="anh\tests\offboarding.spec.js" time="17.165">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF06 - Mở bộ lọc Exit Process" classname="anh\tests\offboarding.spec.js" time="17.441">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF07 - Exit Process không hiển thị lỗi ứng dụng" classname="anh\tests\offboarding.spec.js" time="15.491">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF08 - Tải lại Exit Process không phát sinh lỗi" classname="anh\tests\offboarding.spec.js" time="26.759">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF09 - Exit Process có nội dung về nhân viên và các giai đoạn" classname="anh\tests\offboarding.spec.js" time="16.256">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----dca8e--nhân-viên-và-các-giai-đoạn-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF10 - Ô tìm kiếm Exit Process hiển thị và có thể nhập liệu" classname="anh\tests\offboarding.spec.js" time="16.39">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----2f587-iển-thị-và-có-thể-nhập-liệu-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF11 - Tìm kiếm từ khóa không tồn tại không làm lỗi trang" classname="anh\tests\offboarding.spec.js" time="16.49">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----e3c4f-tồn-tại-không-làm-lỗi-trang-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF12 - Có thể xóa từ khóa tìm kiếm Exit Process" classname="anh\tests\offboarding.spec.js" time="15.468">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----b8015--khóa-tìm-kiếm-Exit-Process-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF13 - Bộ lọc Exit Process có trường nhập liệu" classname="anh\tests\offboarding.spec.js" time="16.03">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----b57f7-Process-có-trường-nhập-liệu-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF14 - Đóng bảng bộ lọc Exit Process" classname="anh\tests\offboarding.spec.js" time="26.473">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="expect(locator).toBeHidden() failed" type="expect.toBeHidden">
+<![CDATA[  [anh] › anh\tests\offboarding.spec.js:121:3 › Offboarding - phạm vi Admin trên Horilla Demo › OF14 - Đóng bảng bộ lọc Exit Process 
+
+    Error: expect(locator).toBeHidden() failed
+
+    Locator:  getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()
+    Expected: hidden
+    Received: visible
+    Timeout:  10000ms
+
+    Call log:
+      - Expect "toBeHidden" getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms
+      - waiting for getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()
+        23 × locator resolved to <div id="modernFilterPanel" class="oh-filter-panel">…</div>
+           - unexpected value "visible"
+
+
+       at anh\tests\helpers.js:166
+
+      164 |   // Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.
+      165 |   await close.evaluate((element) => element.click());
+    > 166 |   await expect(panel || page.locator(".oh-filter-panel")).toBeHidden({ timeout: 10000 });
+          |                                                           ^
+      167 | }
+      168 |
+      169 | async function assertNoApplicationError(page) {
+        at closeFilterPanel (D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\helpers.js:166:59)
+        at D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\offboarding.spec.js:124:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF15 - Bộ lọc có thể xóa điều kiện lọc" classname="anh\tests\offboarding.spec.js" time="16.416">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\trace.zip]]
+]]>
+</system-out>
+<error message="locator.click: Element is outside of the viewport" type="Error">
+<![CDATA[  [anh] › anh\tests\offboarding.spec.js:127:3 › Offboarding - phạm vi Admin trên Horilla Demo › OF15 - Bộ lọc có thể xóa điều kiện lọc 
+
+    Error: locator.click: Element is outside of the viewport
+    Call log:
+      - waiting for getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /clear all/i }).first()
+        - locator resolved to <button type="button" class="oh-filter-panel__clear" onclick="clearAllFilter(this)">…</button>
+      - attempting click action
+        - scrolling into view if needed
+        - done scrolling
+
+
+      130 |     const clear = await findAction(page, /^clear all$/i, panel);
+      131 |     test.skip(!clear, "Bảng lọc không cung cấp nút Clear all.");
+    > 132 |     await clear.click({ force: true });
+          |                 ^
+      133 |     await expect(panel).toBeVisible();
+      134 |     await assertNoApplicationError(page);
+      135 |   });
+        at D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\offboarding.spec.js:132:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF16 - Chế độ List hiển thị danh sách Exit Process" classname="anh\tests\offboarding.spec.js" time="18.444">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----9510d--thị-danh-sách-Exit-Process-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF17 - Chế độ Card hiển thị nội dung Exit Process" classname="anh\tests\offboarding.spec.js" time="17.944">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----d0e56-n-thị-nội-dung-Exit-Process-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF18 - Có thể quay lại List sau khi xem Card" classname="anh\tests\offboarding.spec.js" time="17.166">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----eaad7-y-lại-List-sau-khi-xem-Card-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF19 - Menu Actions có thể mở nếu giao diện cung cấp" classname="anh\tests\offboarding.spec.js" time="18.115">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----cff42-ể-mở-nếu-giao-diện-cung-cấp-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF20 - Điều hướng trình duyệt vẫn giữ đúng trang Exit Process" classname="anh\tests\offboarding.spec.js" time="19.038">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----1f585-giữ-đúng-trang-Exit-Process-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF21 - Refresh sau khi quay lại trang không làm mất giao diện" classname="anh\tests\offboarding.spec.js" time="20.378">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\offboarding-Offboarding----7df4d-ang-không-làm-mất-giao-diện-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="anh\tests\offboarding.spec.js" timestamp="2026-11-12T16:47:18.596Z" hostname="anh" tests="8" failures="0" skipped="0" time="160.635" errors="0">
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF01 - Mở Exit Process" classname="anh\tests\offboarding.spec.js" time="18.9">
+<testsuite name="anh\tests\onboarding.spec.js" timestamp="2026-11-12T17:56:35.014Z" hostname="anh" tests="21" failures="1" skipped="0" time="386.21" errors="0">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON01 - Mở Onboarding View" classname="anh\tests\onboarding.spec.js" time="15.978">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF02 - Exit Process hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\offboarding.spec.js" time="17.689">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON02 - Onboarding View hiển thị vùng nội dung" classname="anh\tests\onboarding.spec.js" time="16.447">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF03 - Exit Process có ô tìm kiếm" classname="anh\tests\offboarding.spec.js" time="21.286">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON03 - Onboarding View không hiển thị lỗi ứng dụng" classname="anh\tests\onboarding.spec.js" time="16.701">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF04 - Tìm kiếm trong Exit Process không gây lỗi" classname="anh\tests\offboarding.spec.js" time="16.086">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON04 - Onboarding View hiển thị pipeline, danh sách hoặc trạng thái rỗng" classname="anh\tests\onboarding.spec.js" time="15.732">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF05 - Chuyển đổi chế độ List và Card nếu các nút được cung cấp" classname="anh\tests\offboarding.spec.js" time="16.096">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON05 - Mở Candidate View" classname="anh\tests\onboarding.spec.js" time="15.744">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF06 - Mở bộ lọc Exit Process" classname="anh\tests\offboarding.spec.js" time="18.431">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON06 - Candidate View hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\onboarding.spec.js" time="15.2">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF07 - Exit Process không hiển thị lỗi ứng dụng" classname="anh\tests\offboarding.spec.js" time="17.536">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON07 - Candidate View có cấu trúc thông tin" classname="anh\tests\onboarding.spec.js" time="15.607">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF08 - Tải lại Exit Process không phát sinh lỗi" classname="anh\tests\offboarding.spec.js" time="34.611">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON08 - Tìm kiếm Candidate nếu ô tìm kiếm được hiển thị" classname="anh\tests\onboarding.spec.js" time="16.023">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-</testsuite>
-<testsuite name="anh\tests\onboarding.spec.js" timestamp="2026-11-12T16:47:18.596Z" hostname="anh" tests="11" failures="0" skipped="0" time="198.153" errors="0">
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON01 - Mở Onboarding View" classname="anh\tests\onboarding.spec.js" time="15.694">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON09 - Candidate View mở được bộ lọc nếu có nút Filter" classname="anh\tests\onboarding.spec.js" time="15.844">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON02 - Onboarding View hiển thị vùng nội dung" classname="anh\tests\onboarding.spec.js" time="15.77">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON10 - Tải lại Candidate View không phát sinh lỗi" classname="anh\tests\onboarding.spec.js" time="27.808">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON03 - Onboarding View không hiển thị lỗi ứng dụng" classname="anh\tests\onboarding.spec.js" time="15.693">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON11 - Tải lại Onboarding View không phát sinh lỗi" classname="anh\tests\onboarding.spec.js" time="26.992">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON04 - Onboarding View hiển thị pipeline, danh sách hoặc trạng thái rỗng" classname="anh\tests\onboarding.spec.js" time="15.761">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON12 - Pipeline có nội dung về stage hoặc tiến trình onboarding" classname="anh\tests\onboarding.spec.js" time="15.961">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-4ae90--hoặc-tiến-trình-onboarding-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON05 - Mở Candidate View" classname="anh\tests\onboarding.spec.js" time="15.845">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON13 - Pipeline có vùng hiển thị các giai đoạn hoặc trạng thái rỗng" classname="anh\tests\onboarding.spec.js" time="15.78">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-5d205-i-đoạn-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON06 - Candidate View hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\onboarding.spec.js" time="16.754">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON14 - Candidate View hiển thị các trường thông tin ứng viên" classname="anh\tests\onboarding.spec.js" time="15.474">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-833f3-c-trường-thông-tin-ứng-viên-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON07 - Candidate View có cấu trúc thông tin" classname="anh\tests\onboarding.spec.js" time="15.646">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON15 - Ô tìm kiếm Candidate hiển thị và có thể nhập liệu" classname="anh\tests\onboarding.spec.js" time="23.73">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-e9eb4-iển-thị-và-có-thể-nhập-liệu-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON08 - Tìm kiếm Candidate nếu ô tìm kiếm được hiển thị" classname="anh\tests\onboarding.spec.js" time="16.321">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON16 - Tìm Candidate không tồn tại không làm lỗi trang" classname="anh\tests\onboarding.spec.js" time="18.126">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-2e207-tồn-tại-không-làm-lỗi-trang-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON09 - Candidate View mở được bộ lọc nếu có nút Filter" classname="anh\tests\onboarding.spec.js" time="16.815">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON17 - Có thể xóa từ khóa tìm kiếm Candidate" classname="anh\tests\onboarding.spec.js" time="18.071">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-f64fd--từ-khóa-tìm-kiếm-Candidate-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON10 - Tải lại Candidate View không phát sinh lỗi" classname="anh\tests\onboarding.spec.js" time="27.115">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON18 - Bộ lọc Candidate hiển thị các trường nhập liệu" classname="anh\tests\onboarding.spec.js" time="17.057">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-5a295-ển-thị-các-trường-nhập-liệu-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON11 - Tải lại Onboarding View không phát sinh lỗi" classname="anh\tests\onboarding.spec.js" time="26.739">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON19 - Đóng bảng bộ lọc Candidate" classname="anh\tests\onboarding.spec.js" time="25.986">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\2026-11-12T16-47-18-568Z\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="expect(locator).toBeHidden() failed" type="expect.toBeHidden">
+<![CDATA[  [anh] › anh\tests\onboarding.spec.js:147:3 › Onboarding - phạm vi Admin trên Horilla Demo › ON19 - Đóng bảng bộ lọc Candidate 
+
+    Error: expect(locator).toBeHidden() failed
+
+    Locator:  getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()
+    Expected: hidden
+    Received: visible
+    Timeout:  10000ms
+
+    Call log:
+      - Expect "toBeHidden" getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms
+      - waiting for getByRole('heading', { name: /^filter\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()
+        24 × locator resolved to <div id="modernFilterPanel" class="oh-filter-panel">…</div>
+           - unexpected value "visible"
+
+
+       at anh\tests\helpers.js:166
+
+      164 |   // Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.
+      165 |   await close.evaluate((element) => element.click());
+    > 166 |   await expect(panel || page.locator(".oh-filter-panel")).toBeHidden({ timeout: 10000 });
+          |                                                           ^
+      167 | }
+      168 |
+      169 | async function assertNoApplicationError(page) {
+        at closeFilterPanel (D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\helpers.js:166:59)
+        at D:\University\Nam4\Test\Project\TestingProject\Automation Testing Project - Group 12\anh\tests\onboarding.spec.js:150:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON20 - Candidate View có thể chọn bản ghi nếu danh sách hỗ trợ checkbox" classname="anh\tests\onboarding.spec.js" time="18.4">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-31217-u-danh-sách-hỗ-trợ-checkbox-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON21 - Điều hướng qua lại giữa Onboarding View và Candidate View" classname="anh\tests\onboarding.spec.js" time="19.549">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-12T17-56-34-980Z\onboarding-Onboarding---ph-8d18f-ding-View-và-Candidate-View-anh\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
