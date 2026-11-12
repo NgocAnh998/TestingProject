@@ -1,0 +1,864 @@
+<testsuites id="" name="" tests="33" failures="11" skipped="0" errors="2" time="590.9924599999999">
+<testsuite name="anh\tests\attendance.spec.js" timestamp="2026-11-09T16:09:53.367Z" hostname="anh" tests="14" failures="3" skipped="0" time="335.51" errors="2">
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT01 - Mở trang Attendance" classname="anh\tests\attendance.spec.js" time="17.946">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT02 - Dashboard có vùng nội dung tổng quan" classname="anh\tests\attendance.spec.js" time="16.529">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT03 - Dashboard không hiển thị lỗi ứng dụng" classname="anh\tests\attendance.spec.js" time="11.47">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT04 - Mở My Attendances" classname="anh\tests\attendance.spec.js" time="11.256">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT05 - My Attendances hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\attendance.spec.js" time="9.458">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ" type="expect.toBeTruthy">
+<![CDATA[  [anh] › anh\tests\attendance.spec.js:40:3 › Attendance - phạm vi Admin trên Horilla Demo › AT05 - My Attendances hiển thị danh sách hoặc trạng thái rỗng 
+
+    Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ
+
+    expect(received).toBeTruthy()
+
+    Received: false
+
+       at anh\tests\helpers.js:177
+
+      175 |     hasStructure || empty || renderedListView,
+      176 |     "Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ",
+    > 177 |   ).toBeTruthy();
+          |     ^
+      178 | }
+      179 |
+      180 | async function assertNoApplicationError(page) {
+        at assertListOrEmpty (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:177:5)
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:42:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT06 - My Attendances có các cột thông tin chấm công" classname="anh\tests\attendance.spec.js" time="12.197">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT07 - Bộ lọc My Attendances hiển thị các trường chấm công" classname="anh\tests\attendance.spec.js" time="10.459">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Trang không có nút Filter khả dụng" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\attendance.spec.js:52:3 › Attendance - phạm vi Admin trên Horilla Demo › AT07 - Bộ lọc My Attendances hiển thị các trường chấm công 
+
+    Error: Trang không có nút Filter khả dụng
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+       at anh\tests\helpers.js:127
+
+      125 |
+      126 |   const button = await findAction(page, /^filter$/i);
+    > 127 |   expect(button, "Trang không có nút Filter khả dụng").not.toBeNull();
+          |                                                            ^
+      128 |   await button.click();
+      129 |   await expect.poll(async () => {
+      130 |     const candidate = await findFilterPanel(page);
+        at openFilterPanel (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:127:60)
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:54:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT08 - Mở bảng bộ lọc My Attendances" classname="anh\tests\attendance.spec.js" time="10.644">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT09 - Đóng bảng bộ lọc My Attendances" classname="anh\tests\attendance.spec.js" time="36.089">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip]]
+]]>
+</system-out>
+<error message="locator.click: Timeout 20000ms exceeded." type="TimeoutError">
+<![CDATA[  [anh] › anh\tests\attendance.spec.js:66:3 › Attendance - phạm vi Admin trên Horilla Demo › AT09 - Đóng bảng bộ lọc My Attendances 
+
+    TimeoutError: locator.click: Timeout 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('heading', { name: /^filter\b/i }).first().locator('../..').getByRole('button', { name: /close/i }).first()
+        - locator resolved to <button type="button" aria-label="Close" class="oh-filter-panel__close" onclick="toggleModernFilterPanel(false)">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+          - waiting 100ms
+        38 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - element is outside of the viewport
+         - retrying click action
+           - waiting 500ms
+
+
+      69 |     const close = await findAction(page, /^close$/i, panel);
+      70 |     expect(close, "Bảng bộ lọc không có nút Close").not.toBeNull();
+    > 71 |     await close.click();
+         |                 ^
+      72 |     await expect(panel).toBeHidden();
+      73 |   });
+      74 |
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:71:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT10 - Bảng bộ lọc có thể thao tác với trường lọc" classname="anh\tests\attendance.spec.js" time="16.406">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Trang không có nút Filter khả dụng" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\attendance.spec.js:75:3 › Attendance - phạm vi Admin trên Horilla Demo › AT10 - Bảng bộ lọc có thể thao tác với trường lọc 
+
+    Error: Trang không có nút Filter khả dụng
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+       at anh\tests\helpers.js:127
+
+      125 |
+      126 |   const button = await findAction(page, /^filter$/i);
+    > 127 |   expect(button, "Trang không có nút Filter khả dụng").not.toBeNull();
+          |                                                            ^
+      128 |   await button.click();
+      129 |   await expect.poll(async () => {
+      130 |     const candidate = await findFilterPanel(page);
+        at openFilterPanel (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:127:60)
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:77:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT11 - Mở Monthly Summary" classname="anh\tests\attendance.spec.js" time="43.412">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT12 - Monthly Summary hiển thị dữ liệu hoặc trạng thái rỗng" classname="anh\tests\attendance.spec.js" time="65.761">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\trace.zip]]
+]]>
+</system-out>
+<error message="locator.click: Timeout 20000ms exceeded." type="TimeoutError">
+<![CDATA[  [anh] › anh\tests\attendance.spec.js:89:3 › Attendance - phạm vi Admin trên Horilla Demo › AT12 - Monthly Summary hiển thị dữ liệu hoặc trạng thái rỗng 
+
+    TimeoutError: locator.click: Timeout 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('heading', { name: /^filter\b/i }).first().locator('../..').getByRole('button', { name: /^close$/i }).first()
+        - locator resolved to <button type="button" aria-label="Close" class="oh-filter-panel__close" onclick="toggleModernFilterPanel(false)">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+          - waiting 100ms
+        38 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - element is outside of the viewport
+         - retrying click action
+           - waiting 500ms
+
+
+       at anh\tests\helpers.js:145
+
+      143 |     || await firstVisible(page.getByRole("button", { name: /^close$/i }));
+      144 |   if (close) {
+    > 145 |     await close.click();
+          |                 ^
+      146 |     await expect(panel).toBeHidden({ timeout: 10000 });
+      147 |   }
+      148 | }
+        at closeFilterPanelIfOpen (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:145:17)
+        at assertListOrEmpty (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:160:3)
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\attendance.spec.js:91:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT13 - Tải lại My Attendances không phát sinh lỗi" classname="anh\tests\attendance.spec.js" time="10.542">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Attendance - phạm vi Admin trên Horilla Demo › AT14 - Tải lại Monthly Summary không phát sinh lỗi" classname="anh\tests\attendance.spec.js" time="63.341">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="anh\tests\offboarding.spec.js" timestamp="2026-11-09T16:09:53.367Z" hostname="anh" tests="8" failures="5" skipped="0" time="102.656" errors="0">
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF01 - Mở Exit Process" classname="anh\tests\offboarding.spec.js" time="8.317">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF02 - Exit Process hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\offboarding.spec.js" time="8.479">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF03 - Exit Process có ô tìm kiếm" classname="anh\tests\offboarding.spec.js" time="15.007">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Không tìm thấy ô Search trên Exit Process" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\offboarding.spec.js:24:3 › Offboarding - phạm vi Admin trên Horilla Demo › OF03 - Exit Process có ô tìm kiếm 
+
+    Error: Không tìm thấy ô Search trên Exit Process
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+      25 |     await openExitProcess(page);
+      26 |     const search = await findSearch(page);
+    > 27 |     expect(search, "Không tìm thấy ô Search trên Exit Process").not.toBeNull();
+         |                                                                     ^
+      28 |   });
+      29 |
+      30 |   test("OF04 - Tìm kiếm trong Exit Process không gây lỗi", async ({ page }) => {
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\offboarding.spec.js:27:69
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF04 - Tìm kiếm trong Exit Process không gây lỗi" classname="anh\tests\offboarding.spec.js" time="14.38">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Không tìm thấy ô Search trên Exit Process" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\offboarding.spec.js:30:3 › Offboarding - phạm vi Admin trên Horilla Demo › OF04 - Tìm kiếm trong Exit Process không gây lỗi 
+
+    Error: Không tìm thấy ô Search trên Exit Process
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+      31 |     await openExitProcess(page);
+      32 |     const search = await findSearch(page);
+    > 33 |     expect(search, "Không tìm thấy ô Search trên Exit Process").not.toBeNull();
+         |                                                                     ^
+      34 |     await search.fill("exit-process-not-existing-qa");
+      35 |     await search.press("Enter").catch(() => {});
+      36 |     await assertNoApplicationError(page);
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\offboarding.spec.js:33:69
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF05 - Chuyển đổi chế độ List và Card nếu các nút được cung cấp" classname="anh\tests\offboarding.spec.js" time="15.17">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Exit Process không hiển thị nút chuyển chế độ xem" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\offboarding.spec.js:41:3 › Offboarding - phạm vi Admin trên Horilla Demo › OF05 - Chuyển đổi chế độ List và Card nếu các nút được cung cấp 
+
+    Error: Exit Process không hiển thị nút chuyển chế độ xem
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+      43 |     const list = await findAction(page, /^list$/i);
+      44 |     const card = await findAction(page, /^card$/i);
+    > 45 |     expect(list || card, "Exit Process không hiển thị nút chuyển chế độ xem").not.toBeNull();
+         |                                                                                   ^
+      46 |     if (list && card) {
+      47 |       await card.click();
+      48 |       await assertNoApplicationError(page);
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\offboarding.spec.js:45:83
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF06 - Mở bộ lọc Exit Process" classname="anh\tests\offboarding.spec.js" time="15.685">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Trang không có nút Filter khả dụng" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\offboarding.spec.js:54:3 › Offboarding - phạm vi Admin trên Horilla Demo › OF06 - Mở bộ lọc Exit Process 
+
+    Error: Trang không có nút Filter khả dụng
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+       at anh\tests\helpers.js:127
+
+      125 |
+      126 |   const button = await findAction(page, /^filter$/i);
+    > 127 |   expect(button, "Trang không có nút Filter khả dụng").not.toBeNull();
+          |                                                            ^
+      128 |   await button.click();
+      129 |   await expect.poll(async () => {
+      130 |     const candidate = await findFilterPanel(page);
+        at openFilterPanel (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:127:60)
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\offboarding.spec.js:56:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF07 - Exit Process không hiển thị lỗi ứng dụng" classname="anh\tests\offboarding.spec.js" time="11.204">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Offboarding - phạm vi Admin trên Horilla Demo › OF08 - Tải lại Exit Process không phát sinh lỗi" classname="anh\tests\offboarding.spec.js" time="14.414">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ" type="expect.toBeTruthy">
+<![CDATA[  [anh] › anh\tests\offboarding.spec.js:66:3 › Offboarding - phạm vi Admin trên Horilla Demo › OF08 - Tải lại Exit Process không phát sinh lỗi 
+
+    Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ
+
+    expect(received).toBeTruthy()
+
+    Received: false
+
+       at anh\tests\helpers.js:177
+
+      175 |     hasStructure || empty || renderedListView,
+      176 |     "Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ",
+    > 177 |   ).toBeTruthy();
+          |     ^
+      178 | }
+      179 |
+      180 | async function assertNoApplicationError(page) {
+        at assertListOrEmpty (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:177:5)
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\offboarding.spec.js:69:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="anh\tests\onboarding.spec.js" timestamp="2026-11-09T16:09:53.367Z" hostname="anh" tests="11" failures="3" skipped="0" time="143.446" errors="0">
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON01 - Mở Onboarding View" classname="anh\tests\onboarding.spec.js" time="14.851">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON02 - Onboarding View hiển thị vùng nội dung" classname="anh\tests\onboarding.spec.js" time="10.623">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON03 - Onboarding View không hiển thị lỗi ứng dụng" classname="anh\tests\onboarding.spec.js" time="15.645">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON04 - Onboarding View hiển thị pipeline, danh sách hoặc trạng thái rỗng" classname="anh\tests\onboarding.spec.js" time="11.031">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON05 - Mở Candidate View" classname="anh\tests\onboarding.spec.js" time="12.453">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON06 - Candidate View hiển thị danh sách hoặc trạng thái rỗng" classname="anh\tests\onboarding.spec.js" time="15.145">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ" type="expect.toBeTruthy">
+<![CDATA[  [anh] › anh\tests\onboarding.spec.js:42:3 › Onboarding - phạm vi Admin trên Horilla Demo › ON06 - Candidate View hiển thị danh sách hoặc trạng thái rỗng 
+
+    Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ
+
+    expect(received).toBeTruthy()
+
+    Received: false
+
+       at anh\tests\helpers.js:177
+
+      175 |     hasStructure || empty || renderedListView,
+      176 |     "Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ",
+    > 177 |   ).toBeTruthy();
+          |     ^
+      178 | }
+      179 |
+      180 | async function assertNoApplicationError(page) {
+        at assertListOrEmpty (D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\helpers.js:177:5)
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\onboarding.spec.js:44:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON07 - Candidate View có cấu trúc thông tin" classname="anh\tests\onboarding.spec.js" time="10.463">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON08 - Tìm kiếm Candidate nếu ô tìm kiếm được hiển thị" classname="anh\tests\onboarding.spec.js" time="9.712">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Candidate View không hiển thị ô Search" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\onboarding.spec.js:54:3 › Onboarding - phạm vi Admin trên Horilla Demo › ON08 - Tìm kiếm Candidate nếu ô tìm kiếm được hiển thị 
+
+    Error: Candidate View không hiển thị ô Search
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+      55 |     await openOnboarding(page, routes.candidates, "Candidate View");
+      56 |     const search = await findSearch(page);
+    > 57 |     expect(search, "Candidate View không hiển thị ô Search").not.toBeNull();
+         |                                                                  ^
+      58 |     await search.fill("candidate-not-existing-qa");
+      59 |     await search.press("Enter").catch(() => {});
+      60 |     await assertNoApplicationError(page);
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\onboarding.spec.js:57:66
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON09 - Candidate View mở được bộ lọc nếu có nút Filter" classname="anh\tests\onboarding.spec.js" time="14.419">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\video.webm]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\error-context.md]]
+
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\trace.zip]]
+]]>
+</system-out>
+<failure message="Candidate View không có nút Filter" type="expect.not.toBeNull">
+<![CDATA[  [anh] › anh\tests\onboarding.spec.js:65:3 › Onboarding - phạm vi Admin trên Horilla Demo › ON09 - Candidate View mở được bộ lọc nếu có nút Filter 
+
+    Error: Candidate View không có nút Filter
+
+    expect(received).not.toBeNull()
+
+    Received: null
+
+      66 |     await openOnboarding(page, routes.candidates, "Candidate View");
+      67 |     const filter = await findAction(page, /^filter$/i);
+    > 68 |     expect(filter, "Candidate View không có nút Filter").not.toBeNull();
+         |                                                              ^
+      69 |     const panel = await openFilterPanel(page);
+      70 |     await expect(panel).toBeVisible();
+      71 |   });
+        at D:\University\Nam4\Test\Project\softwareTesting\Automation Testing Project - Group 12\anh\tests\onboarding.spec.js:68:62
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON10 - Tải lại Candidate View không phát sinh lỗi" classname="anh\tests\onboarding.spec.js" time="11.351">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Onboarding - phạm vi Admin trên Horilla Demo › ON11 - Tải lại Onboarding View không phát sinh lỗi" classname="anh\tests\onboarding.spec.js" time="17.753">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\2026-11-09T16-09-53-270Z\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

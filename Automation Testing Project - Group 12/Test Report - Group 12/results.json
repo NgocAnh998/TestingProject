@@ -1,0 +1,2106 @@
+{
+  "config": {
+    "argv": [
+      "D:\\DevTools\\NodeJs\\node.exe",
+      "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--project=anh"
+    ],
+    "configFile": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\playwright.config.js",
+    "rootDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 5400000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/test-results/2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hieu-setup",
+        "name": "hieu-setup",
+        "testDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/hieu",
+        "testIgnore": [],
+        "testMatch": [
+          "/auth\\.setup\\.js/"
+        ],
+        "timeout": 150000
+      },
+      {
+        "outputDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/test-results/2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hieu",
+        "name": "hieu",
+        "testDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/hieu",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.spec\\.js/"
+        ],
+        "timeout": 150000
+      },
+      {
+        "outputDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/test-results/2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hoa",
+        "name": "hoa",
+        "testDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/hoa",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.js/"
+        ],
+        "timeout": 150000
+      },
+      {
+        "outputDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/test-results/2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "loc",
+        "name": "loc",
+        "testDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/loc",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.spec\\.js/"
+        ],
+        "timeout": 150000
+      },
+      {
+        "outputDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/test-results/2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "nam-setup",
+        "name": "nam-setup",
+        "testDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/nam/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/auth\\.setup\\.js/"
+        ],
+        "timeout": 150000
+      },
+      {
+        "outputDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/test-results/2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "nam",
+        "name": "nam",
+        "testDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/nam/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.spec\\.js/"
+        ],
+        "timeout": 150000
+      },
+      {
+        "outputDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/test-results/2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "anh",
+        "name": "anh",
+        "testDir": "D:/University/Nam4/Test/Project/softwareTesting/Automation Testing Project - Group 12/anh/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.spec\\.js/"
+        ],
+        "timeout": 150000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "anh",
+        "testDir": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests",
+        "snapshotDir": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 150000,
+        "use": {
+          "baseURL": "https://hr.demo.horilla.com",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "locale": "en-US",
+          "timezoneId": "Asia/Ho_Chi_Minh",
+          "actionTimeout": 20000,
+          "navigationTimeout": 40000,
+          "screenshot": "on",
+          "video": "retain-on-failure",
+          "trace": "retain-on-failure",
+          "storageState": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "anh"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "Test Report - Group 12/html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "Test Report - Group 12/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "Test Report - Group 12/junit.xml"
+        }
+      ],
+      [
+        "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\scripts\\evidence-reporter.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "anh\\tests\\attendance.spec.js",
+      "file": "anh/tests/attendance.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Attendance - phạm vi Admin trên Horilla Demo",
+          "file": "anh/tests/attendance.spec.js",
+          "line": 17,
+          "column": 6,
+          "specs": [
+            {
+              "title": "AT01 - Mở trang Attendance",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 17946,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:09:53.682Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-330be50d7e28aee795be",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "AT02 - Dashboard có vùng nội dung tổng quan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16529,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:10:11.739Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-3b6a9b54908172a7deba",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 23,
+              "column": 3
+            },
+            {
+              "title": "AT03 - Dashboard không hiển thị lỗi ứng dụng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11470,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:10:28.278Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-a70e631841b9ac21e180",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "AT04 - Mở My Attendances",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11256,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:10:39.758Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-c983e6b46c4b813a7193",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "AT05 - My Attendances hiển thị danh sách hoặc trạng thái rỗng",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9458,
+                      "error": {
+                        "message": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:177:5)\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:42:5",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 5,
+                          "line": 177
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:177\n\n\u001b[0m \u001b[90m 175 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty \u001b[33m||\u001b[39m renderedListView\u001b[33m,\u001b[39m\n \u001b[90m 176 |\u001b[39m     \u001b[32m\"Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 177 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 178 |\u001b[39m }\n \u001b[90m 179 |\u001b[39m\n \u001b[90m 180 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 5,
+                            "line": 177
+                          },
+                          "message": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:177\n\n\u001b[0m \u001b[90m 175 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty \u001b[33m||\u001b[39m renderedListView\u001b[33m,\u001b[39m\n \u001b[90m 176 |\u001b[39m     \u001b[32m\"Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 177 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 178 |\u001b[39m }\n \u001b[90m 179 |\u001b[39m\n \u001b[90m 180 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:177:5)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:42:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:10:51.021Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 5,
+                        "line": 177
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-d0ce081660fe38724c93",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "AT06 - My Attendances có các cột thông tin chấm công",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12197,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:11:01.017Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-5da8ffea055f81ee13a5",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 45,
+              "column": 3
+            },
+            {
+              "title": "AT07 - Bộ lọc My Attendances hiển thị các trường chấm công",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10459,
+                      "error": {
+                        "message": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at openFilterPanel (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:127:60)\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:54:19",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 60,
+                          "line": 127
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:127\n\n\u001b[0m \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   \u001b[36mconst\u001b[39m button \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 127 |\u001b[39m   expect(button\u001b[33m,\u001b[39m \u001b[32m\"Trang không có nút Filter khả dụng\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 128 |\u001b[39m   \u001b[36mawait\u001b[39m button\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 129 |\u001b[39m   \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m candidate \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findFilterPanel(page)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 60,
+                            "line": 127
+                          },
+                          "message": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:127\n\n\u001b[0m \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   \u001b[36mconst\u001b[39m button \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 127 |\u001b[39m   expect(button\u001b[33m,\u001b[39m \u001b[32m\"Trang không có nút Filter khả dụng\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 128 |\u001b[39m   \u001b[36mawait\u001b[39m button\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 129 |\u001b[39m   \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m candidate \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findFilterPanel(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at openFilterPanel (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:127:60)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:54:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:11:13.310Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 60,
+                        "line": 127
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-36a2fe995156b275d2da",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "AT08 - Mở bảng bộ lọc My Attendances",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10644,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:11:24.336Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-ff23808ccd1fb2040d90",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 60,
+              "column": 3
+            },
+            {
+              "title": "AT09 - Đóng bảng bộ lọc My Attendances",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 36089,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('../..').getByRole('button', { name: /close/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('../..').getByRole('button', { name: /close/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:71:17",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                          "column": 17,
+                          "line": 71
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m close \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^close$/i\u001b[39m\u001b[33m,\u001b[39m panel)\u001b[33m;\u001b[39m\n \u001b[90m 70 |\u001b[39m     expect(close\u001b[33m,\u001b[39m \u001b[32m\"Bảng bộ lọc không có nút Close\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 72 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeHidden()\u001b[33m;\u001b[39m\n \u001b[90m 73 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 74 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                            "column": 17,
+                            "line": 71
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('../..').getByRole('button', { name: /close/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m close \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^close$/i\u001b[39m\u001b[33m,\u001b[39m panel)\u001b[33m;\u001b[39m\n \u001b[90m 70 |\u001b[39m     expect(close\u001b[33m,\u001b[39m \u001b[32m\"Bảng bộ lọc không có nút Close\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 72 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeHidden()\u001b[33m;\u001b[39m\n \u001b[90m 73 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 74 |\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:71:17\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:11:35.076Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                        "column": 17,
+                        "line": 71
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-3ce2ef03968240a5f216",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "AT10 - Bảng bộ lọc có thể thao tác với trường lọc",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16406,
+                      "error": {
+                        "message": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at openFilterPanel (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:127:60)\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:77:19",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 60,
+                          "line": 127
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:127\n\n\u001b[0m \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   \u001b[36mconst\u001b[39m button \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 127 |\u001b[39m   expect(button\u001b[33m,\u001b[39m \u001b[32m\"Trang không có nút Filter khả dụng\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 128 |\u001b[39m   \u001b[36mawait\u001b[39m button\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 129 |\u001b[39m   \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m candidate \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findFilterPanel(page)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 60,
+                            "line": 127
+                          },
+                          "message": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:127\n\n\u001b[0m \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   \u001b[36mconst\u001b[39m button \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 127 |\u001b[39m   expect(button\u001b[33m,\u001b[39m \u001b[32m\"Trang không có nút Filter khả dụng\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 128 |\u001b[39m   \u001b[36mawait\u001b[39m button\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 129 |\u001b[39m   \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m candidate \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findFilterPanel(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at openFilterPanel (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:127:60)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:77:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:12:11.877Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 60,
+                        "line": 127
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-ddebfe4e4527789fae1b",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 75,
+              "column": 3
+            },
+            {
+              "title": "AT11 - Mở Monthly Summary",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 43412,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:12:28.890Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-1a5275554d8e93b7f78f",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 84,
+              "column": 3
+            },
+            {
+              "title": "AT12 - Monthly Summary hiển thị dữ liệu hoặc trạng thái rỗng",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 65761,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('../..').getByRole('button', { name: /^close$/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('../..').getByRole('button', { name: /^close$/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at closeFilterPanelIfOpen (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:145:17)\n    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:160:3)\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:91:5",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 17,
+                          "line": 145
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:145\n\n\u001b[0m \u001b[90m 143 |\u001b[39m     \u001b[33m||\u001b[39m \u001b[36mawait\u001b[39m firstVisible(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m\"button\"\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[35m/^close$/i\u001b[39m }))\u001b[33m;\u001b[39m\n \u001b[90m 144 |\u001b[39m   \u001b[36mif\u001b[39m (close) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 145 |\u001b[39m     \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 146 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 147 |\u001b[39m   }\n \u001b[90m 148 |\u001b[39m }\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 17,
+                            "line": 145
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('../..').getByRole('button', { name: /^close$/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:145\n\n\u001b[0m \u001b[90m 143 |\u001b[39m     \u001b[33m||\u001b[39m \u001b[36mawait\u001b[39m firstVisible(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m\"button\"\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[35m/^close$/i\u001b[39m }))\u001b[33m;\u001b[39m\n \u001b[90m 144 |\u001b[39m   \u001b[36mif\u001b[39m (close) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 145 |\u001b[39m     \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 146 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 147 |\u001b[39m   }\n \u001b[90m 148 |\u001b[39m }\u001b[0m\n\u001b[2m    at closeFilterPanelIfOpen (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:145:17)\u001b[22m\n\u001b[2m    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:160:3)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:91:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:13:12.398Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 17,
+                        "line": 145
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-e76608480b6856ac3617",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 89,
+              "column": 3
+            },
+            {
+              "title": "AT13 - Tải lại My Attendances không phát sinh lỗi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10542,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:14:19.166Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-ee7fab4b2b512153d5b8",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 94,
+              "column": 3
+            },
+            {
+              "title": "AT14 - Tải lại Monthly Summary không phát sinh lỗi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 63341,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:14:29.808Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b59cef2c191e6be43e3f-e9b7bcbebd89878f42a9",
+              "file": "anh/tests/attendance.spec.js",
+              "line": 100,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "anh\\tests\\offboarding.spec.js",
+      "file": "anh/tests/offboarding.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Offboarding - phạm vi Admin trên Horilla Demo",
+          "file": "anh/tests/offboarding.spec.js",
+          "line": 13,
+          "column": 6,
+          "specs": [
+            {
+              "title": "OF01 - Mở Exit Process",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8317,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:15:33.167Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-1247ff39979e39fda41c",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 14,
+              "column": 3
+            },
+            {
+              "title": "OF02 - Exit Process hiển thị danh sách hoặc trạng thái rỗng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8479,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:15:41.493Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-b7dd7e7ea9c7256636ca",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "OF03 - Exit Process có ô tìm kiếm",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15007,
+                      "error": {
+                        "message": "Error: Không tìm thấy ô Search trên Exit Process\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Không tìm thấy ô Search trên Exit Process\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:27:69",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                          "column": 69,
+                          "line": 27
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 25 |\u001b[39m     \u001b[36mawait\u001b[39m openExitProcess(page)\u001b[33m;\u001b[39m\n \u001b[90m 26 |\u001b[39m     \u001b[36mconst\u001b[39m search \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findSearch(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     expect(search\u001b[33m,\u001b[39m \u001b[32m\"Không tìm thấy ô Search trên Exit Process\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   test(\u001b[32m\"OF04 - Tìm kiếm trong Exit Process không gây lỗi\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                            "column": 69,
+                            "line": 27
+                          },
+                          "message": "Error: Không tìm thấy ô Search trên Exit Process\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 25 |\u001b[39m     \u001b[36mawait\u001b[39m openExitProcess(page)\u001b[33m;\u001b[39m\n \u001b[90m 26 |\u001b[39m     \u001b[36mconst\u001b[39m search \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findSearch(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     expect(search\u001b[33m,\u001b[39m \u001b[32m\"Không tìm thấy ô Search trên Exit Process\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   test(\u001b[32m\"OF04 - Tìm kiếm trong Exit Process không gây lỗi\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:27:69\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:15:49.978Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                        "column": 69,
+                        "line": 27
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-aa0ef824c29d2ec892dc",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "OF04 - Tìm kiếm trong Exit Process không gây lỗi",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 14380,
+                      "error": {
+                        "message": "Error: Không tìm thấy ô Search trên Exit Process\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Không tìm thấy ô Search trên Exit Process\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:33:69",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                          "column": 69,
+                          "line": 33
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m     \u001b[36mawait\u001b[39m openExitProcess(page)\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m     \u001b[36mconst\u001b[39m search \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findSearch(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 33 |\u001b[39m     expect(search\u001b[33m,\u001b[39m \u001b[32m\"Không tìm thấy ô Search trên Exit Process\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mfill(\u001b[32m\"exit-process-not-existing-qa\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 35 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mpress(\u001b[32m\"Enter\"\u001b[39m)\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                            "column": 69,
+                            "line": 33
+                          },
+                          "message": "Error: Không tìm thấy ô Search trên Exit Process\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 31 |\u001b[39m     \u001b[36mawait\u001b[39m openExitProcess(page)\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m     \u001b[36mconst\u001b[39m search \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findSearch(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 33 |\u001b[39m     expect(search\u001b[33m,\u001b[39m \u001b[32m\"Không tìm thấy ô Search trên Exit Process\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mfill(\u001b[32m\"exit-process-not-existing-qa\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 35 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mpress(\u001b[32m\"Enter\"\u001b[39m)\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:33:69\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:16:05.518Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                        "column": 69,
+                        "line": 33
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-84a664fcb22937f5cbae",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "OF05 - Chuyển đổi chế độ List và Card nếu các nút được cung cấp",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15170,
+                      "error": {
+                        "message": "Error: Exit Process không hiển thị nút chuyển chế độ xem\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Exit Process không hiển thị nút chuyển chế độ xem\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:45:83",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                          "column": 83,
+                          "line": 45
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 43 |\u001b[39m     \u001b[36mconst\u001b[39m list \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^list$/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mconst\u001b[39m card \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^card$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 45 |\u001b[39m     expect(list \u001b[33m||\u001b[39m card\u001b[33m,\u001b[39m \u001b[32m\"Exit Process không hiển thị nút chuyển chế độ xem\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 46 |\u001b[39m     \u001b[36mif\u001b[39m (list \u001b[33m&&\u001b[39m card) {\n \u001b[90m 47 |\u001b[39m       \u001b[36mawait\u001b[39m card\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 48 |\u001b[39m       \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                            "column": 83,
+                            "line": 45
+                          },
+                          "message": "Error: Exit Process không hiển thị nút chuyển chế độ xem\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 43 |\u001b[39m     \u001b[36mconst\u001b[39m list \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^list$/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mconst\u001b[39m card \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^card$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 45 |\u001b[39m     expect(list \u001b[33m||\u001b[39m card\u001b[33m,\u001b[39m \u001b[32m\"Exit Process không hiển thị nút chuyển chế độ xem\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 46 |\u001b[39m     \u001b[36mif\u001b[39m (list \u001b[33m&&\u001b[39m card) {\n \u001b[90m 47 |\u001b[39m       \u001b[36mawait\u001b[39m card\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 48 |\u001b[39m       \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:45:83\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:16:20.496Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
+                        "column": 83,
+                        "line": 45
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-a469df4a00e86bafe428",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 41,
+              "column": 3
+            },
+            {
+              "title": "OF06 - Mở bộ lọc Exit Process",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15685,
+                      "error": {
+                        "message": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at openFilterPanel (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:127:60)\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:56:19",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 60,
+                          "line": 127
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:127\n\n\u001b[0m \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   \u001b[36mconst\u001b[39m button \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 127 |\u001b[39m   expect(button\u001b[33m,\u001b[39m \u001b[32m\"Trang không có nút Filter khả dụng\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 128 |\u001b[39m   \u001b[36mawait\u001b[39m button\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 129 |\u001b[39m   \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m candidate \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findFilterPanel(page)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 60,
+                            "line": 127
+                          },
+                          "message": "Error: Trang không có nút Filter khả dụng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:127\n\n\u001b[0m \u001b[90m 125 |\u001b[39m\n \u001b[90m 126 |\u001b[39m   \u001b[36mconst\u001b[39m button \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 127 |\u001b[39m   expect(button\u001b[33m,\u001b[39m \u001b[32m\"Trang không có nút Filter khả dụng\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 128 |\u001b[39m   \u001b[36mawait\u001b[39m button\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 129 |\u001b[39m   \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39mpoll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m candidate \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findFilterPanel(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at openFilterPanel (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:127:60)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:56:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:16:36.241Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 60,
+                        "line": 127
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-38ab353d3002d290e26f",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 54,
+              "column": 3
+            },
+            {
+              "title": "OF07 - Exit Process không hiển thị lỗi ứng dụng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11204,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:16:52.515Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-a82c2f790437dc81e519",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 61,
+              "column": 3
+            },
+            {
+              "title": "OF08 - Tải lại Exit Process không phát sinh lỗi",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 14414,
+                      "error": {
+                        "message": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:177:5)\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:69:5",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 5,
+                          "line": 177
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:177\n\n\u001b[0m \u001b[90m 175 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty \u001b[33m||\u001b[39m renderedListView\u001b[33m,\u001b[39m\n \u001b[90m 176 |\u001b[39m     \u001b[32m\"Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 177 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 178 |\u001b[39m }\n \u001b[90m 179 |\u001b[39m\n \u001b[90m 180 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 5,
+                            "line": 177
+                          },
+                          "message": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:177\n\n\u001b[0m \u001b[90m 175 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty \u001b[33m||\u001b[39m renderedListView\u001b[33m,\u001b[39m\n \u001b[90m 176 |\u001b[39m     \u001b[32m\"Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 177 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 178 |\u001b[39m }\n \u001b[90m 179 |\u001b[39m\n \u001b[90m 180 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:177:5)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:69:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:17:03.814Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 5,
+                        "line": 177
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d35fb4153f23f246cd1-7dbc3303d7449a5fe74d",
+              "file": "anh/tests/offboarding.spec.js",
+              "line": 66,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "anh\\tests\\onboarding.spec.js",
+      "file": "anh/tests/onboarding.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Onboarding - phạm vi Admin trên Horilla Demo",
+          "file": "anh/tests/onboarding.spec.js",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "ON01 - Mở Onboarding View",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14851,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:17:18.772Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-c3f93b2b824cb12e2489",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "ON02 - Onboarding View hiển thị vùng nội dung",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10623,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:17:33.724Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-44a2ce2d142d22378ee6",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "ON03 - Onboarding View không hiển thị lỗi ứng dụng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15645,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:17:44.354Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-8782f9576515e678a8db",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 27,
+              "column": 3
+            },
+            {
+              "title": "ON04 - Onboarding View hiển thị pipeline, danh sách hoặc trạng thái rỗng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11031,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:18:00.006Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-920e444ca2eaa181034b",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 32,
+              "column": 3
+            },
+            {
+              "title": "ON05 - Mở Candidate View",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12453,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:18:11.044Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-12e1acc0ebfe8352586c",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "ON06 - Candidate View hiển thị danh sách hoặc trạng thái rỗng",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15145,
+                      "error": {
+                        "message": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:177:5)\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:44:5",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 5,
+                          "line": 177
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:177\n\n\u001b[0m \u001b[90m 175 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty \u001b[33m||\u001b[39m renderedListView\u001b[33m,\u001b[39m\n \u001b[90m 176 |\u001b[39m     \u001b[32m\"Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 177 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 178 |\u001b[39m }\n \u001b[90m 179 |\u001b[39m\n \u001b[90m 180 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 5,
+                            "line": 177
+                          },
+                          "message": "Error: Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:177\n\n\u001b[0m \u001b[90m 175 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty \u001b[33m||\u001b[39m renderedListView\u001b[33m,\u001b[39m\n \u001b[90m 176 |\u001b[39m     \u001b[32m\"Trang không có bảng/danh sách hiển thị, trạng thái rỗng hoặc bộ điều khiển danh sách hợp lệ\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 177 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 178 |\u001b[39m }\n \u001b[90m 179 |\u001b[39m\n \u001b[90m 180 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:177:5)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:44:5\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:18:23.505Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 5,
+                        "line": 177
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-53ebd2a37abe63c30ed6",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "ON07 - Candidate View có cấu trúc thông tin",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10463,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:18:39.176Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-1105dc0512cd96229d73",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 47,
+              "column": 3
+            },
+            {
+              "title": "ON08 - Tìm kiếm Candidate nếu ô tìm kiếm được hiển thị",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9712,
+                      "error": {
+                        "message": "Error: Candidate View không hiển thị ô Search\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Candidate View không hiển thị ô Search\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:57:66",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js",
+                          "column": 66,
+                          "line": 57
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m openOnboarding(page\u001b[33m,\u001b[39m routes\u001b[33m.\u001b[39mcandidates\u001b[33m,\u001b[39m \u001b[32m\"Candidate View\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mconst\u001b[39m search \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findSearch(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(search\u001b[33m,\u001b[39m \u001b[32m\"Candidate View không hiển thị ô Search\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mfill(\u001b[32m\"candidate-not-existing-qa\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mpress(\u001b[32m\"Enter\"\u001b[39m)\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js",
+                            "column": 66,
+                            "line": 57
+                          },
+                          "message": "Error: Candidate View không hiển thị ô Search\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m openOnboarding(page\u001b[33m,\u001b[39m routes\u001b[33m.\u001b[39mcandidates\u001b[33m,\u001b[39m \u001b[32m\"Candidate View\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mconst\u001b[39m search \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findSearch(page)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(search\u001b[33m,\u001b[39m \u001b[32m\"Candidate View không hiển thị ô Search\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mfill(\u001b[32m\"candidate-not-existing-qa\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m     \u001b[36mawait\u001b[39m search\u001b[33m.\u001b[39mpress(\u001b[32m\"Enter\"\u001b[39m)\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:57:66\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:18:49.740Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js",
+                        "column": 66,
+                        "line": 57
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-86f9ed85a6d77dabc76b",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 54,
+              "column": 3
+            },
+            {
+              "title": "ON09 - Candidate View mở được bộ lọc nếu có nút Filter",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 14419,
+                      "error": {
+                        "message": "Error: Candidate View không có nút Filter\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: Candidate View không có nút Filter\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:68:62",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js",
+                          "column": 62,
+                          "line": 68
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 66 |\u001b[39m     \u001b[36mawait\u001b[39m openOnboarding(page\u001b[33m,\u001b[39m routes\u001b[33m.\u001b[39mcandidates\u001b[33m,\u001b[39m \u001b[32m\"Candidate View\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m     \u001b[36mconst\u001b[39m filter \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 68 |\u001b[39m     expect(filter\u001b[33m,\u001b[39m \u001b[32m\"Candidate View không có nút Filter\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m panel \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m openFilterPanel(page)\u001b[33m;\u001b[39m\n \u001b[90m 70 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 71 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js",
+                            "column": 62,
+                            "line": 68
+                          },
+                          "message": "Error: Candidate View không có nút Filter\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 66 |\u001b[39m     \u001b[36mawait\u001b[39m openOnboarding(page\u001b[33m,\u001b[39m routes\u001b[33m.\u001b[39mcandidates\u001b[33m,\u001b[39m \u001b[32m\"Candidate View\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m     \u001b[36mconst\u001b[39m filter \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^filter$/i\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 68 |\u001b[39m     expect(filter\u001b[33m,\u001b[39m \u001b[32m\"Candidate View không có nút Filter\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m panel \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m openFilterPanel(page)\u001b[33m;\u001b[39m\n \u001b[90m 70 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 71 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:68:62\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:18:59.959Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js",
+                        "column": 62,
+                        "line": 68
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-dd4561e6ddaa4cdef3a2",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 65,
+              "column": 3
+            },
+            {
+              "title": "ON10 - Tải lại Candidate View không phát sinh lỗi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11351,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:19:14.975Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-b940f70a136879d7f30f",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 73,
+              "column": 3
+            },
+            {
+              "title": "ON11 - Tải lại Onboarding View không phát sinh lỗi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "anh",
+                  "projectName": "anh",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 17753,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-09T16:19:26.423Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\softwareTesting\\Automation Testing Project - Group 12\\test-results\\2026-11-09T16-09-53-270Z\\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "289937b78f21fd60af7e-f60704d560f87a92426f",
+              "file": "anh/tests/onboarding.spec.js",
+              "line": 79,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-09T16:09:53.275Z",
+    "duration": 590992.46,
+    "expected": 20,
+    "skipped": 0,
+    "unexpected": 13,
+    "flaky": 0
+  }
+}
