@@ -97,18 +97,53 @@ async function findFilterPanel(page) {
 
 async function openFilterPanel(page) {
   let panel = await findFilterPanel(page);
-  if (panel && await panel.isVisible().catch(() => false)) return panel;
+  const isOpen = async (candidate) => {
+    if (!candidate) return false;
+    return candidate.evaluate((element) => element.classList.contains("oh-filter-panel--open"))
+      .catch(() => false);
+  };
 
-  const button = await findAction(page, /^filter$/i);
+  // Horilla keeps the drawer in the DOM while it is closed; isVisible() alone
+  // cannot distinguish the off-canvas state from the open state.
+  if (await isOpen(panel)) return panel;
+
+  const button = await firstVisible(page.locator("#modernFilterTrigger"))
+    || await findAction(page, /^filter$/i);
   expect(button, "Trang không có nút Filter khả dụng").not.toBeNull();
   await button.click();
+
   await expect.poll(async () => {
     const candidate = await findFilterPanel(page);
-    return Boolean(candidate && await candidate.isVisible().catch(() => false));
-  }, { message: "Nhấn Filter nhưng bảng bộ lọc không xuất hiện", timeout: 10000 }).toBeTruthy();
+    return isOpen(candidate);
+  }, {
+    message: "Nhấn Filter nhưng drawer không chuyển sang trạng thái mở",
+    timeout: 10000,
+  }).toBeTruthy();
+
   panel = await findFilterPanel(page);
   expect(panel).not.toBeNull();
   return panel;
+}
+
+async function closeFilterPanel(page, panel) {
+  const panelLocator = panel || page.locator("#modernFilterPanel");
+  await expect.poll(() => panelLocator.evaluate(
+    (element) => element.classList.contains("oh-filter-panel--open")
+  )).toBe(true);
+
+  const close = await firstVisible(panelLocator.locator(".oh-filter-panel__close"))
+    || await findAction(page, /^close$/i, panelLocator);
+  expect(close, "Không tìm thấy nút đóng bảng bộ lọc").not.toBeNull();
+
+  // The close icon may be outside the viewport because the drawer uses a
+  // translateX transition. Trigger the real button handler, then check state.
+  await close.evaluate((element) => element.click());
+  await expect.poll(() => panelLocator.evaluate(
+    (element) => element.classList.contains("oh-filter-panel--open")
+  ), {
+    message: "Drawer vẫn ở trạng thái mở sau khi nhấn Close",
+    timeout: 10000,
+  }).toBe(false);
 }
 
 async function hasVisibleLocator(locator) {
