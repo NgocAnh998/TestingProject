@@ -137,7 +137,7 @@ async function closeFilterPanel(page, panel) {
 
   // The close icon may be outside the viewport because the drawer uses a
   // translateX transition. Trigger the real button handler, then check state.
-  await close.evaluate((element) => element.click());
+  await close.click();
   await expect.poll(() => panelLocator.evaluate(
     (element) => element.classList.contains("oh-filter-panel--open")
   ), {
