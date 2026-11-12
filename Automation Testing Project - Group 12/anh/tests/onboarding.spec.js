@@ -91,9 +91,8 @@ test.describe("Onboarding - phạm vi Admin trên Horilla Demo", () => {
   test("ON13 - Pipeline có vùng hiển thị các giai đoạn hoặc trạng thái rỗng", async ({ page }) => {
     await openOnboarding(page, routes.pipeline, "Onboarding View");
     const body = await page.locator("body").innerText();
-    const stageArea = page.locator("[class*=stage]:visible, [class*=pipeline]:visible, [class*=kanban]:visible, [class*=onboarding]:visible");
     expect(body).toMatch(/stage|candidate|task|no data|no records|empty/i);
-    expect(await stageArea.count()).toBeGreaterThan(0);
+    await assertListOrEmpty(page);
   });
 
   test("ON14 - Candidate View hiển thị các trường thông tin ứng viên", async ({ page }) => {
@@ -140,7 +139,9 @@ test.describe("Onboarding - phạm vi Admin trên Horilla Demo", () => {
     const panel = await openFilterPanel(page);
     const controls = panel.locator("input:not([type=hidden]), select, textarea");
     expect(await controls.count()).toBeGreaterThan(0);
-    await expect(await firstVisible(controls)).toBeVisible();
+    const control = await firstVisible(controls);
+    expect(control, "Không có trường lọc Candidate đang hiển thị").not.toBeNull();
+    await expect(control).toBeVisible();
   });
 
   test("ON19 - Đóng bảng bộ lọc Candidate", async ({ page }) => {
