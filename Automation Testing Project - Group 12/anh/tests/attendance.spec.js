@@ -138,9 +138,19 @@ test.describe("Attendance - phạm vi Admin trên Horilla Demo", () => {
     expect([headers, body].join(" ")).toMatch(/request|employee|date|status|attendance|approval/i);
   });
 
-  test("AT21 - Mở Daily Work Status và kiểm tra dữ liệu", async ({ page }) => {
-    await openAttendance(page, routes.workStatus, "Daily Work Status");
-    await expect(page.locator("body")).toContainText(/daily work status|work status|employee|attendance/i);
+  test("AT21 - Daily Work Status chuyển đến Monthly Summary ở chế độ Day-wise", async ({ page }) => {
+    // Horilla hiện giữ URL work-status cũ nhưng chuyển nó sang Monthly Summary?view=daily.
+    await page.goto(routes.workStatus, { waitUntil: "domcontentloaded" });
+    await expect.poll(() => new URL(page.url()).pathname, {
+      message: "Daily Work Status không chuyển đến Monthly Summary",
+      timeout: 15000,
+    }).toBe(routes.monthly);
+    await expect.poll(() => new URL(page.url()).searchParams.get("view"), {
+      message: "Monthly Summary không mở ở chế độ Day-wise",
+      timeout: 10000,
+    }).toBe("daily");
+
+    await expect(page.locator("body")).toContainText(/monthly attendance summary|attendance|day.?wise/i);
     await assertListOrEmpty(page);
     await assertNoApplicationError(page);
   });
