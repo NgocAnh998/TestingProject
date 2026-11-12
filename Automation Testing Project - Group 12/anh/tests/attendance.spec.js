@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 const {
-  openPage, findAction, firstVisible,
+  openPage, firstVisible,
   openFilterPanel, closeFilterPanel, assertListOrEmpty,
   assertNoApplicationError, reloadAndVerify,
 } = require("./helpers");
