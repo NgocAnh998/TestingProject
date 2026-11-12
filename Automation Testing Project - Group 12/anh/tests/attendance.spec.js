@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 const {
-  openPage, findAction, findFilterPanel,
+  openPage, findAction, firstVisible,
   openFilterPanel, assertListOrEmpty, assertNoApplicationError, reloadAndVerify,
 } = require("./helpers");
 
@@ -75,7 +75,8 @@ test.describe("Attendance - phạm vi Admin trên Horilla Demo", () => {
   test("AT10 - Bảng bộ lọc có thể thao tác với trường lọc", async ({ page }) => {
     await openAttendance(page, routes.mine, "My Attendances");
     const panel = await openFilterPanel(page);
-    const control = panel.locator("input, select, textarea").first();
+    const control = await firstVisible(panel.locator("input:not([type=hidden]), select, textarea"));
+    expect(control, "Bảng lọc không có control đang hiển thị").not.toBeNull();
     await expect(control).toBeVisible();
     await expect(panel).toContainText(/attendance date|min hour|validated|ot approved/i);
     await assertNoApplicationError(page);
