@@ -23,7 +23,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-43-38-492Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -39,7 +39,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-43-38-492Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -55,7 +55,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-43-38-492Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -71,7 +71,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-43-38-492Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -87,7 +87,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-43-38-492Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -103,7 +103,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-43-38-492Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -119,7 +119,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-43-38-492Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -139,7 +139,7 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z",
+        "outputDir": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -230,7 +230,7 @@
           "specs": [
             {
               "title": "AT01 - Mở trang Attendance",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -243,37 +243,24 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16326,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:38.843Z",
+                      "startTime": "2026-11-12T16:47:18.886Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-330be50d7e28aee795be",
@@ -283,7 +270,7 @@
             },
             {
               "title": "AT02 - Dashboard có vùng nội dung tổng quan",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -294,39 +281,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 17946,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:39.351Z",
+                      "startTime": "2026-11-12T16:47:35.312Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-3b6a9b54908172a7deba",
@@ -336,7 +310,7 @@
             },
             {
               "title": "AT03 - Dashboard không hiển thị lỗi ứng dụng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -347,39 +321,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 18438,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:39.847Z",
+                      "startTime": "2026-11-12T16:47:53.266Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-a70e631841b9ac21e180",
@@ -389,7 +350,7 @@
             },
             {
               "title": "AT04 - Mở My Attendances",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -400,39 +361,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15801,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:40.340Z",
+                      "startTime": "2026-11-12T16:48:11.713Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-c983e6b46c4b813a7193",
@@ -442,7 +390,7 @@
             },
             {
               "title": "AT05 - My Attendances hiển thị danh sách hoặc trạng thái rỗng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -453,39 +401,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16235,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:40.811Z",
+                      "startTime": "2026-11-12T16:48:27.538Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-d0ce081660fe38724c93",
@@ -495,7 +430,7 @@
             },
             {
               "title": "AT06 - My Attendances có các cột thông tin chấm công",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -506,39 +441,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 24922,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:41.261Z",
+                      "startTime": "2026-11-12T16:48:43.784Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-5da8ffea055f81ee13a5",
@@ -548,7 +470,7 @@
             },
             {
               "title": "AT07 - Bộ lọc My Attendances hiển thị các trường chấm công",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -559,39 +481,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15843,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:41.697Z",
+                      "startTime": "2026-11-12T16:49:08.717Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-36a2fe995156b275d2da",
@@ -601,7 +510,7 @@
             },
             {
               "title": "AT08 - Mở bảng bộ lọc My Attendances",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -612,39 +521,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 17587,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:42.170Z",
+                      "startTime": "2026-11-12T16:49:24.557Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-ff23808ccd1fb2040d90",
@@ -665,36 +561,62 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 3,
+                      "duration": 35620,
                       "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
+                        "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /close/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /close/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:71:17",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                          "column": 17,
+                          "line": 71
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m close \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^close$/i\u001b[39m\u001b[33m,\u001b[39m panel)\u001b[33m;\u001b[39m\n \u001b[90m 70 |\u001b[39m     expect(close\u001b[33m,\u001b[39m \u001b[32m\"Bảng bộ lọc không có nút Close\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 72 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeHidden()\u001b[33m;\u001b[39m\n \u001b[90m 73 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 74 |\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                            "column": 17,
+                            "line": 71
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /close/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"oh-filter-panel__close\" onclick=\"toggleModernFilterPanel(false)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    38 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - element is outside of the viewport\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m close \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^close$/i\u001b[39m\u001b[33m,\u001b[39m panel)\u001b[33m;\u001b[39m\n \u001b[90m 70 |\u001b[39m     expect(close\u001b[33m,\u001b[39m \u001b[32m\"Bảng bộ lọc không có nút Close\"\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 72 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeHidden()\u001b[33m;\u001b[39m\n \u001b[90m 73 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 74 |\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:71:17\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:42.616Z",
+                      "startTime": "2026-11-12T16:49:42.155Z",
                       "annotations": [],
                       "attachments": [
                         {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\video.webm"
+                        },
+                        {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\error-context.md"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\error-context.md"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\trace.zip"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                        "column": 17,
+                        "line": 71
+                      }
                     }
                   ],
                   "status": "unexpected"
@@ -707,7 +629,7 @@
             },
             {
               "title": "AT10 - Bảng bộ lọc có thể thao tác với trường lọc",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -718,39 +640,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16428,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:43.102Z",
+                      "startTime": "2026-11-12T16:50:18.566Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-ddebfe4e4527789fae1b",
@@ -760,7 +669,7 @@
             },
             {
               "title": "AT11 - Mở Monthly Summary",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -771,39 +680,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16068,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:43.561Z",
+                      "startTime": "2026-11-12T16:50:35.085Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-1a5275554d8e93b7f78f",
@@ -813,7 +709,7 @@
             },
             {
               "title": "AT12 - Monthly Summary hiển thị dữ liệu hoặc trạng thái rỗng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -824,39 +720,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15826,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:44.011Z",
+                      "startTime": "2026-11-12T16:50:51.160Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-e76608480b6856ac3617",
@@ -877,36 +760,62 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 12,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 3,
+                      "duration": 27072,
                       "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
+                        "message": "Error: Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:147:5)\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:98:5",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 5,
+                          "line": 147
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:147\n\n\u001b[0m \u001b[90m 145 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty\u001b[33m,\u001b[39m\n \u001b[90m 146 |\u001b[39m     \u001b[32m\"Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 147 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 148 |\u001b[39m }\n \u001b[90m 149 |\u001b[39m\n \u001b[90m 150 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
                       },
                       "errors": [
                         {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 5,
+                            "line": 147
+                          },
+                          "message": "Error: Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:147\n\n\u001b[0m \u001b[90m 145 |\u001b[39m     hasStructure \u001b[33m||\u001b[39m empty\u001b[33m,\u001b[39m\n \u001b[90m 146 |\u001b[39m     \u001b[32m\"Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\"\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 147 |\u001b[39m   )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 148 |\u001b[39m }\n \u001b[90m 149 |\u001b[39m\n \u001b[90m 150 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:147:5)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:98:5\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:44.483Z",
+                      "startTime": "2026-11-12T16:51:06.994Z",
                       "annotations": [],
                       "attachments": [
                         {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\video.webm"
+                        },
+                        {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\error-context.md"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\error-context.md"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\trace.zip"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 5,
+                        "line": 147
+                      }
                     }
                   ],
                   "status": "unexpected"
@@ -919,7 +828,7 @@
             },
             {
               "title": "AT14 - Tải lại Monthly Summary không phát sinh lỗi",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -930,39 +839,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 13,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 5,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 27868,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:44.943Z",
+                      "startTime": "2026-11-12T16:51:34.694Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-e9b7bcbebd89878f42a9",
@@ -989,7 +885,7 @@
           "specs": [
             {
               "title": "OF01 - Mở Exit Process",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1000,39 +896,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 14,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 18900,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:45.419Z",
+                      "startTime": "2026-11-12T16:52:02.665Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-1247ff39979e39fda41c",
@@ -1042,7 +925,7 @@
             },
             {
               "title": "OF02 - Exit Process hiển thị danh sách hoặc trạng thái rỗng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1053,39 +936,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 15,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 17689,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:45.865Z",
+                      "startTime": "2026-11-12T16:52:21.574Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-b7dd7e7ea9c7256636ca",
@@ -1095,7 +965,7 @@
             },
             {
               "title": "OF03 - Exit Process có ô tìm kiếm",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1106,39 +976,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 16,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 21286,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:46.309Z",
+                      "startTime": "2026-11-12T16:52:39.279Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-aa0ef824c29d2ec892dc",
@@ -1148,7 +1005,7 @@
             },
             {
               "title": "OF04 - Tìm kiếm trong Exit Process không gây lỗi",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1159,39 +1016,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 17,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16086,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:46.787Z",
+                      "startTime": "2026-11-12T16:53:00.572Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-84a664fcb22937f5cbae",
@@ -1201,7 +1045,7 @@
             },
             {
               "title": "OF05 - Chuyển đổi chế độ List và Card nếu các nút được cung cấp",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1212,39 +1056,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 18,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16096,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:47.279Z",
+                      "startTime": "2026-11-12T16:53:16.666Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-a469df4a00e86bafe428",
@@ -1254,7 +1085,7 @@
             },
             {
               "title": "OF06 - Mở bộ lọc Exit Process",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1265,39 +1096,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 19,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 18431,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:47.757Z",
+                      "startTime": "2026-11-12T16:53:32.770Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-38ab353d3002d290e26f",
@@ -1307,7 +1125,7 @@
             },
             {
               "title": "OF07 - Exit Process không hiển thị lỗi ứng dụng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1318,39 +1136,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 20,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 7,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 17536,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:48.234Z",
+                      "startTime": "2026-11-12T16:53:51.209Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-a82c2f790437dc81e519",
@@ -1360,7 +1165,7 @@
             },
             {
               "title": "OF08 - Tải lại Exit Process không phát sinh lỗi",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1371,39 +1176,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 21,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 34611,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:48.683Z",
+                      "startTime": "2026-11-12T16:54:08.752Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-7dbc3303d7449a5fe74d",
@@ -1430,7 +1222,7 @@
           "specs": [
             {
               "title": "ON01 - Mở Onboarding View",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1441,39 +1233,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 22,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15694,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:49.135Z",
+                      "startTime": "2026-11-12T16:54:43.378Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-c3f93b2b824cb12e2489",
@@ -1483,7 +1262,7 @@
             },
             {
               "title": "ON02 - Onboarding View hiển thị vùng nội dung",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1494,39 +1273,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 23,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15770,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:49.598Z",
+                      "startTime": "2026-11-12T16:54:59.079Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-44a2ce2d142d22378ee6",
@@ -1536,7 +1302,7 @@
             },
             {
               "title": "ON03 - Onboarding View không hiển thị lỗi ứng dụng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1547,39 +1313,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 24,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15693,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:50.033Z",
+                      "startTime": "2026-11-12T16:55:14.858Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-8782f9576515e678a8db",
@@ -1589,7 +1342,7 @@
             },
             {
               "title": "ON04 - Onboarding View hiển thị pipeline, danh sách hoặc trạng thái rỗng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1600,39 +1353,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 25,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15761,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:50.485Z",
+                      "startTime": "2026-11-12T16:55:30.559Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-920e444ca2eaa181034b",
@@ -1642,7 +1382,7 @@
             },
             {
               "title": "ON05 - Mở Candidate View",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1653,39 +1393,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 26,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15845,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:50.971Z",
+                      "startTime": "2026-11-12T16:55:46.328Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-12e1acc0ebfe8352586c",
@@ -1695,7 +1422,7 @@
             },
             {
               "title": "ON06 - Candidate View hiển thị danh sách hoặc trạng thái rỗng",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1706,39 +1433,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 27,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16754,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:51.442Z",
+                      "startTime": "2026-11-12T16:56:02.180Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-53ebd2a37abe63c30ed6",
@@ -1748,7 +1462,7 @@
             },
             {
               "title": "ON07 - Candidate View có cấu trúc thông tin",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1759,39 +1473,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 28,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15646,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:51.889Z",
+                      "startTime": "2026-11-12T16:56:18.940Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-1105dc0512cd96229d73",
@@ -1801,7 +1502,7 @@
             },
             {
               "title": "ON08 - Tìm kiếm Candidate nếu ô tìm kiếm được hiển thị",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1812,39 +1513,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 29,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16321,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:52.331Z",
+                      "startTime": "2026-11-12T16:56:34.593Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-86f9ed85a6d77dabc76b",
@@ -1854,7 +1542,7 @@
             },
             {
               "title": "ON09 - Candidate View mở được bộ lọc nếu có nút Filter",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1865,39 +1553,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 30,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 16815,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:52.793Z",
+                      "startTime": "2026-11-12T16:56:50.922Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-dd4561e6ddaa4cdef3a2",
@@ -1907,7 +1582,7 @@
             },
             {
               "title": "ON10 - Tải lại Candidate View không phát sinh lỗi",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1918,39 +1593,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 31,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 5,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 27115,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:53.266Z",
+                      "startTime": "2026-11-12T16:57:07.745Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-b940f70a136879d7f30f",
@@ -1960,7 +1622,7 @@
             },
             {
               "title": "ON11 - Tải lại Onboarding View không phát sinh lỗi",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1971,39 +1633,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 32,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'",
-                        "stack": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: Error reading storage state from D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json:\nENOENT: no such file or directory, open 'D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\playwright\\.auth\\user.json'"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 26739,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T16:43:53.716Z",
+                      "startTime": "2026-11-12T16:57:34.867Z",
                       "annotations": [],
                       "attachments": [
                         {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-43-38-492Z\\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\\trace.zip"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T16-47-18-568Z\\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-f60704d560f87a92426f",
@@ -2018,11 +1667,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-12T16:43:38.496Z",
-    "duration": 15387.054,
-    "expected": 0,
+    "startTime": "2026-11-12T16:47:18.571Z",
+    "duration": 643183.858,
+    "expected": 31,
     "skipped": 0,
-    "unexpected": 33,
+    "unexpected": 2,
     "flaky": 0
   }
 }
