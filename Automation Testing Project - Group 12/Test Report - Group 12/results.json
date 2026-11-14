@@ -23,7 +23,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T17-56-34-980Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -39,7 +39,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T17-56-34-980Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -55,7 +55,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T17-56-34-980Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -71,7 +71,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T17-56-34-980Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -87,7 +87,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T17-56-34-980Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -103,7 +103,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T17-56-34-980Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -119,7 +119,7 @@
         "timeout": 150000
       },
       {
-        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-12T17-56-34-980Z",
+        "outputDir": "D:/University/Nam4/Test/Project/TestingProject/Automation Testing Project - Group 12/test-results/2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -139,7 +139,7 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z",
+        "outputDir": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -244,18 +244,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19484,
+                      "duration": 20938,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:56:35.340Z",
+                      "startTime": "2026-11-13T09:21:54.898Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-fbfc8--AT01---Mở-trang-Attendance-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -284,18 +284,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16866,
+                      "duration": 19810,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:56:54.921Z",
+                      "startTime": "2026-11-13T09:22:17.006Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-ea97d--có-vùng-nội-dung-tổng-quan-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -324,18 +324,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16355,
+                      "duration": 20013,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:57:11.797Z",
+                      "startTime": "2026-11-13T09:22:36.835Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-3c37a-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -364,18 +364,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16336,
+                      "duration": 17167,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:57:28.162Z",
+                      "startTime": "2026-11-13T09:22:56.875Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-b98f2-mo-AT04---Mở-My-Attendances-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -404,18 +404,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15521,
+                      "duration": 16800,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:57:44.510Z",
+                      "startTime": "2026-11-13T09:23:14.052Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-3f563-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -444,18 +444,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15565,
+                      "duration": 16938,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:58:00.038Z",
+                      "startTime": "2026-11-13T09:23:30.859Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-a49a2-các-cột-thông-tin-chấm-công-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -484,18 +484,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15685,
+                      "duration": 16912,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:58:15.612Z",
+                      "startTime": "2026-11-13T09:23:47.807Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-d2110-ển-thị-các-trường-chấm-công-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -524,18 +524,18 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16019,
+                      "duration": 17030,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:58:31.308Z",
+                      "startTime": "2026-11-13T09:24:04.731Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-1eee3--bảng-bộ-lọc-My-Attendances-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -550,7 +550,7 @@
             },
             {
               "title": "AT09 - Đóng bảng bộ lọc My Attendances",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -563,63 +563,24 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 27120,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    23 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    23 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n    at closeFilterPanel (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:166:59)\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:73:5",
-                        "location": {
-                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                          "column": 59,
-                          "line": 166
-                        },
-                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:166\n\n\u001b[0m \u001b[90m 164 |\u001b[39m   \u001b[90m// Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.\u001b[39m\n \u001b[90m 165 |\u001b[39m   \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mevaluate((element) \u001b[33m=>\u001b[39m element\u001b[33m.\u001b[39mclick())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 166 |\u001b[39m   \u001b[36mawait\u001b[39m expect(panel \u001b[33m||\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".oh-filter-panel\"\u001b[39m))\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 167 |\u001b[39m }\n \u001b[90m 168 |\u001b[39m\n \u001b[90m 169 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                            "column": 59,
-                            "line": 166
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    23 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:166\n\n\u001b[0m \u001b[90m 164 |\u001b[39m   \u001b[90m// Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.\u001b[39m\n \u001b[90m 165 |\u001b[39m   \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mevaluate((element) \u001b[33m=>\u001b[39m element\u001b[33m.\u001b[39mclick())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 166 |\u001b[39m   \u001b[36mawait\u001b[39m expect(panel \u001b[33m||\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".oh-filter-panel\"\u001b[39m))\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 167 |\u001b[39m }\n \u001b[90m 168 |\u001b[39m\n \u001b[90m 169 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at closeFilterPanel (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:166:59)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:73:5\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 17379,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:58:47.339Z",
+                      "startTime": "2026-11-13T09:24:21.771Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\trace.zip"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-5dcb0--bảng-bộ-lọc-My-Attendances-anh\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                        "column": 59,
-                        "line": 166
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-3ce2ef03968240a5f216",
@@ -640,21 +601,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15811,
+                      "duration": 18087,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:59:15.188Z",
+                      "startTime": "2026-11-13T09:24:39.159Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-0713f-thể-thao-tác-với-trường-lọc-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -680,21 +641,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16507,
+                      "duration": 16466,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:59:31.094Z",
+                      "startTime": "2026-11-13T09:24:57.255Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-12d9b-o-AT11---Mở-Monthly-Summary-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -720,21 +681,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15979,
+                      "duration": 16686,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T17:59:47.614Z",
+                      "startTime": "2026-11-13T09:25:13.731Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-bd681-ữ-liệu-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -760,21 +721,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 26612,
+                      "duration": 40882,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:00:03.600Z",
+                      "startTime": "2026-11-13T09:25:30.426Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-e023e-ndances-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -800,21 +761,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 26979,
+                      "duration": 28079,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:00:30.221Z",
+                      "startTime": "2026-11-13T09:26:11.316Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-fb1e7-Summary-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -840,21 +801,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15318,
+                      "duration": 17406,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:00:57.209Z",
+                      "startTime": "2026-11-13T09:26:39.403Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-b3114--Attendances-dành-cho-Admin-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-b3114--Attendances-dành-cho-Admin-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -869,7 +830,7 @@
             },
             {
               "title": "AT16 - Attendances hiển thị bảng hoặc trạng thái không có dữ liệu",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -880,26 +841,65 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 15450,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 31391,
+                      "error": {
+                        "message": "Error: Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\nTrang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Timeout 15000ms exceeded while waiting on the predicate",
+                        "stack": "Error: Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\nTrang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Timeout 15000ms exceeded while waiting on the predicate\n    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:189:6)\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:114:11",
+                        "location": {
+                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                          "column": 6,
+                          "line": 189
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:189\n\n\u001b[0m \u001b[90m 187 |\u001b[39m     timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 188 |\u001b[39m     intervals\u001b[33m:\u001b[39m [\u001b[35m250\u001b[39m\u001b[33m,\u001b[39m \u001b[35m500\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1000\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1500\u001b[39m]\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 189 |\u001b[39m   })\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 190 |\u001b[39m }\n \u001b[90m 191 |\u001b[39m\n \u001b[90m 192 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                            "column": 6,
+                            "line": 189
+                          },
+                          "message": "Error: Trang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\nTrang không hiển thị bảng, danh sách, card/kanban, biểu đồ hoặc trạng thái rỗng\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Timeout 15000ms exceeded while waiting on the predicate\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:189\n\n\u001b[0m \u001b[90m 187 |\u001b[39m     timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 188 |\u001b[39m     intervals\u001b[33m:\u001b[39m [\u001b[35m250\u001b[39m\u001b[33m,\u001b[39m \u001b[35m500\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1000\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1500\u001b[39m]\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 189 |\u001b[39m   })\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 190 |\u001b[39m }\n \u001b[90m 191 |\u001b[39m\n \u001b[90m 192 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at assertListOrEmpty (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:189:6)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:114:11\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:01:12.537Z",
+                      "startTime": "2026-11-13T09:26:56.819Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-ab12d-trạng-thái-không-có-dữ-liệu-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-ab12d-trạng-thái-không-có-dữ-liệu-anh\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-ab12d-trạng-thái-không-có-dữ-liệu-anh\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-ab12d-trạng-thái-không-có-dữ-liệu-anh\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-ab12d-trạng-thái-không-có-dữ-liệu-anh\\trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
+                        "column": 6,
+                        "line": 189
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "b59cef2c191e6be43e3f-0199194db9686523b226",
@@ -923,18 +923,18 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15791,
+                      "duration": 17597,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:01:27.995Z",
+                      "startTime": "2026-11-13T09:27:29.059Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-d3e41-viên-và-thời-gian-chấm-công-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-d3e41-viên-và-thời-gian-chấm-công-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -963,18 +963,18 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15739,
+                      "duration": 16267,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:01:43.794Z",
+                      "startTime": "2026-11-13T09:27:46.759Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-368a2-18---Mở-Attendance-Requests-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-368a2-18---Mở-Attendance-Requests-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1003,18 +1003,18 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16876,
+                      "duration": 19153,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:01:59.542Z",
+                      "startTime": "2026-11-13T09:28:03.048Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-ec31a-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-ec31a-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1043,18 +1043,18 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17557,
+                      "duration": 16850,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:02:16.426Z",
+                      "startTime": "2026-11-13T09:28:22.214Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-756a2-thị-thông-tin-xử-lý-yêu-cầu-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-756a2-thị-thông-tin-xử-lý-yêu-cầu-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1068,7 +1068,7 @@
               "column": 3
             },
             {
-              "title": "AT21 - Mở Daily Work Status và kiểm tra dữ liệu",
+              "title": "AT21 - Daily Work Status chuyển đến Monthly Summary ở chế độ Day-wise",
               "ok": false,
               "tags": [],
               "tests": [
@@ -1083,65 +1083,65 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 21894,
+                      "duration": 16651,
                       "error": {
-                        "message": "Error: Website không mở đúng trang Daily Work Status\n\nWebsite không mở đúng trang Daily Work Status\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"/attendance/\u001b[7mwork-status\u001b[27m/\"\u001b[39m\nReceived: \u001b[31m\"/attendance/\u001b[7mmonthly-summary\u001b[27m/\"\u001b[39m\n\nCall Log:\n- Timeout 15000ms exceeded while waiting on the predicate",
-                        "stack": "Error: Website không mở đúng trang Daily Work Status\n\nWebsite không mở đúng trang Daily Work Status\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"/attendance/\u001b[7mwork-status\u001b[27m/\"\u001b[39m\nReceived: \u001b[31m\"/attendance/\u001b[7mmonthly-summary\u001b[27m/\"\u001b[39m\n\nCall Log:\n- Timeout 15000ms exceeded while waiting on the predicate\n    at openPage (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:64:6)\n    at openAttendance (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:18:3)\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:142:5",
+                        "message": "Error: Monthly Summary không mở ở chế độ Day-wise\n\nMonthly Summary không mở ở chế độ Day-wise\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"daily\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate",
+                        "stack": "Error: Monthly Summary không mở ở chế độ Day-wise\n\nMonthly Summary không mở ở chế độ Day-wise\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"daily\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:151:8",
                         "location": {
-                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                          "column": 6,
-                          "line": 64
+                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                          "column": 8,
+                          "line": 151
                         },
-                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:64\n\n\u001b[0m \u001b[90m 62 |\u001b[39m     message\u001b[33m:\u001b[39m \u001b[32m`Website không mở đúng trang ${pageName || moduleName}`\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 63 |\u001b[39m     timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 64 |\u001b[39m   })\u001b[33m.\u001b[39mtoBe(expected\u001b[33m.\u001b[39mpathname)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 65 |\u001b[39m\n \u001b[90m 66 |\u001b[39m   \u001b[36mawait\u001b[39m waitForPageContent(page\u001b[33m,\u001b[39m moduleName\u001b[33m,\u001b[39m pageName)\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m   \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m"
+                        "snippet": "\u001b[0m \u001b[90m 149 |\u001b[39m       message\u001b[33m:\u001b[39m \u001b[32m\"Monthly Summary không mở ở chế độ Day-wise\"\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 150 |\u001b[39m       timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 151 |\u001b[39m     })\u001b[33m.\u001b[39mtoBe(\u001b[32m\"daily\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 152 |\u001b[39m\n \u001b[90m 153 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"body\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/monthly attendance summary|attendance|day.?wise/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 154 |\u001b[39m     \u001b[36mawait\u001b[39m assertListOrEmpty(page)\u001b[33m;\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                            "column": 6,
-                            "line": 64
+                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                            "column": 8,
+                            "line": 151
                           },
-                          "message": "Error: Website không mở đúng trang Daily Work Status\n\nWebsite không mở đúng trang Daily Work Status\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"/attendance/\u001b[7mwork-status\u001b[27m/\"\u001b[39m\nReceived: \u001b[31m\"/attendance/\u001b[7mmonthly-summary\u001b[27m/\"\u001b[39m\n\nCall Log:\n- Timeout 15000ms exceeded while waiting on the predicate\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:64\n\n\u001b[0m \u001b[90m 62 |\u001b[39m     message\u001b[33m:\u001b[39m \u001b[32m`Website không mở đúng trang ${pageName || moduleName}`\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 63 |\u001b[39m     timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 64 |\u001b[39m   })\u001b[33m.\u001b[39mtoBe(expected\u001b[33m.\u001b[39mpathname)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 65 |\u001b[39m\n \u001b[90m 66 |\u001b[39m   \u001b[36mawait\u001b[39m waitForPageContent(page\u001b[33m,\u001b[39m moduleName\u001b[33m,\u001b[39m pageName)\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m   \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at openPage (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:64:6)\u001b[22m\n\u001b[2m    at openAttendance (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:18:3)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:142:5\u001b[22m"
+                          "message": "Error: Monthly Summary không mở ở chế độ Day-wise\n\nMonthly Summary không mở ở chế độ Day-wise\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"daily\"\u001b[39m\nReceived: \u001b[31mnull\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n\n\u001b[0m \u001b[90m 149 |\u001b[39m       message\u001b[33m:\u001b[39m \u001b[32m\"Monthly Summary không mở ở chế độ Day-wise\"\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 150 |\u001b[39m       timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 151 |\u001b[39m     })\u001b[33m.\u001b[39mtoBe(\u001b[32m\"daily\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 152 |\u001b[39m\n \u001b[90m 153 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"body\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/monthly attendance summary|attendance|day.?wise/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 154 |\u001b[39m     \u001b[36mawait\u001b[39m assertListOrEmpty(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js:151:8\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:02:33.990Z",
+                      "startTime": "2026-11-13T09:28:39.077Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\\test-failed-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-3d5f4-y-Summary-ở-chế-độ-Day-wise-anh\\test-failed-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\\video.webm"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-3d5f4-y-Summary-ở-chế-độ-Day-wise-anh\\video.webm"
                         },
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\\error-context.md"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-3d5f4-y-Summary-ở-chế-độ-Day-wise-anh\\error-context.md"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\attendance-Attendance---ph-2dd10--Status-và-kiểm-tra-dữ-liệu-anh\\trace.zip"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\attendance-Attendance---ph-3d5f4-y-Summary-ở-chế-độ-Day-wise-anh\\trace.zip"
                         }
                       ],
                       "errorLocation": {
-                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                        "column": 6,
-                        "line": 64
+                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\attendance.spec.js",
+                        "column": 8,
+                        "line": 151
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "b59cef2c191e6be43e3f-7d03261420650ea17142",
+              "id": "b59cef2c191e6be43e3f-b4af1c57ac34f24a73d4",
               "file": "anh/tests/attendance.spec.js",
               "line": 141,
               "column": 3
@@ -1179,18 +1179,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16261,
+                      "duration": 17546,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:02:56.704Z",
+                      "startTime": "2026-11-13T09:28:56.452Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----b1ce1-Demo-OF01---Mở-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1219,18 +1219,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15624,
+                      "duration": 17633,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:03:13.080Z",
+                      "startTime": "2026-11-13T09:29:14.091Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----6b5c4-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1259,18 +1259,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17120,
+                      "duration": 16210,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:03:28.713Z",
+                      "startTime": "2026-11-13T09:29:31.738Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----000dc--Exit-Process-có-ô-tìm-kiếm-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1299,18 +1299,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16405,
+                      "duration": 17984,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:03:45.841Z",
+                      "startTime": "2026-11-13T09:29:47.962Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----e15b5--Exit-Process-không-gây-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1339,18 +1339,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17165,
+                      "duration": 17797,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:04:02.255Z",
+                      "startTime": "2026-11-13T09:30:05.959Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----43e5b-d-nếu-các-nút-được-cung-cấp-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1379,18 +1379,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17441,
+                      "duration": 17778,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:04:19.428Z",
+                      "startTime": "2026-11-13T09:30:23.771Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----c782a-06---Mở-bộ-lọc-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1419,18 +1419,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15491,
+                      "duration": 16395,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:04:36.878Z",
+                      "startTime": "2026-11-13T09:30:41.562Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----06a3c-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1459,18 +1459,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 26759,
+                      "duration": 28684,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:04:52.376Z",
+                      "startTime": "2026-11-13T09:30:57.967Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----17625-Process-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1499,18 +1499,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16256,
+                      "duration": 16789,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:05:19.142Z",
+                      "startTime": "2026-11-13T09:31:26.663Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----dca8e--nhân-viên-và-các-giai-đoạn-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----dca8e--nhân-viên-và-các-giai-đoạn-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1539,18 +1539,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16390,
+                      "duration": 16497,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:05:35.407Z",
+                      "startTime": "2026-11-13T09:31:43.463Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----2f587-iển-thị-và-có-thể-nhập-liệu-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----2f587-iển-thị-và-có-thể-nhập-liệu-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1579,18 +1579,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16490,
+                      "duration": 16926,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:05:51.804Z",
+                      "startTime": "2026-11-13T09:31:59.970Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----e3c4f-tồn-tại-không-làm-lỗi-trang-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----e3c4f-tồn-tại-không-làm-lỗi-trang-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1619,18 +1619,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15468,
+                      "duration": 17616,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:06:08.302Z",
+                      "startTime": "2026-11-13T09:32:16.905Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----b8015--khóa-tìm-kiếm-Exit-Process-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----b8015--khóa-tìm-kiếm-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1659,18 +1659,18 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16030,
+                      "duration": 17696,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:06:23.778Z",
+                      "startTime": "2026-11-13T09:32:34.531Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----b57f7-Process-có-trường-nhập-liệu-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----b57f7-Process-có-trường-nhập-liệu-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1685,7 +1685,7 @@
             },
             {
               "title": "OF14 - Đóng bảng bộ lọc Exit Process",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1698,63 +1698,24 @@
                     {
                       "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 26473,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    23 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    23 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n    at closeFilterPanel (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:166:59)\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:124:5",
-                        "location": {
-                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                          "column": 59,
-                          "line": 166
-                        },
-                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:166\n\n\u001b[0m \u001b[90m 164 |\u001b[39m   \u001b[90m// Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.\u001b[39m\n \u001b[90m 165 |\u001b[39m   \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mevaluate((element) \u001b[33m=>\u001b[39m element\u001b[33m.\u001b[39mclick())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 166 |\u001b[39m   \u001b[36mawait\u001b[39m expect(panel \u001b[33m||\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".oh-filter-panel\"\u001b[39m))\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 167 |\u001b[39m }\n \u001b[90m 168 |\u001b[39m\n \u001b[90m 169 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                            "column": 59,
-                            "line": 166
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    23 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:166\n\n\u001b[0m \u001b[90m 164 |\u001b[39m   \u001b[90m// Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.\u001b[39m\n \u001b[90m 165 |\u001b[39m   \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mevaluate((element) \u001b[33m=>\u001b[39m element\u001b[33m.\u001b[39mclick())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 166 |\u001b[39m   \u001b[36mawait\u001b[39m expect(panel \u001b[33m||\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".oh-filter-panel\"\u001b[39m))\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 167 |\u001b[39m }\n \u001b[90m 168 |\u001b[39m\n \u001b[90m 169 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at closeFilterPanel (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:166:59)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:124:5\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 17219,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:06:39.815Z",
+                      "startTime": "2026-11-13T09:32:52.239Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\\video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\\trace.zip"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----a8c02-ng-bảng-bộ-lọc-Exit-Process-anh\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                        "column": 59,
-                        "line": 166
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "9d35fb4153f23f246cd1-4c925b126e267efcddf0",
@@ -1763,8 +1724,8 @@
               "column": 3
             },
             {
-              "title": "OF15 - Bộ lọc có thể xóa điều kiện lọc",
-              "ok": false,
+              "title": "OF15 - Nút Clear all của bộ lọc có thể thao tác",
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1775,68 +1736,29 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 16416,
-                      "error": {
-                        "message": "Error: locator.click: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /clear all/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" class=\"oh-filter-panel__clear\" onclick=\"clearAllFilter(this)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
-                        "stack": "Error: locator.click: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /clear all/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" class=\"oh-filter-panel__clear\" onclick=\"clearAllFilter(this)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:132:17",
-                        "location": {
-                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
-                          "column": 17,
-                          "line": 132
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m clear \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^clear all$/i\u001b[39m\u001b[33m,\u001b[39m panel)\u001b[33m;\u001b[39m\n \u001b[90m 131 |\u001b[39m     test\u001b[33m.\u001b[39mskip(\u001b[33m!\u001b[39mclear\u001b[33m,\u001b[39m \u001b[32m\"Bảng lọc không cung cấp nút Clear all.\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m     \u001b[36mawait\u001b[39m clear\u001b[33m.\u001b[39mclick({ force\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\n \u001b[90m 135 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
-                            "column": 17,
-                            "line": 132
-                          },
-                          "message": "Error: locator.click: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first().getByRole('button', { name: /clear all/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" class=\"oh-filter-panel__clear\" onclick=\"clearAllFilter(this)\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\n\n\u001b[0m \u001b[90m 130 |\u001b[39m     \u001b[36mconst\u001b[39m clear \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m findAction(page\u001b[33m,\u001b[39m \u001b[35m/^clear all$/i\u001b[39m\u001b[33m,\u001b[39m panel)\u001b[33m;\u001b[39m\n \u001b[90m 131 |\u001b[39m     test\u001b[33m.\u001b[39mskip(\u001b[33m!\u001b[39mclear\u001b[33m,\u001b[39m \u001b[32m\"Bảng lọc không cung cấp nút Clear all.\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m     \u001b[36mawait\u001b[39m clear\u001b[33m.\u001b[39mclick({ force\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m     \u001b[36mawait\u001b[39m expect(panel)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mawait\u001b[39m assertNoApplicationError(page)\u001b[33m;\u001b[39m\n \u001b[90m 135 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js:132:17\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 17740,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:07:07.083Z",
+                      "startTime": "2026-11-13T09:33:09.469Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\\video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----4e73b-ọc-có-thể-xóa-điều-kiện-lọc-anh\\trace.zip"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----0fafd--của-bộ-lọc-có-thể-thao-tác-anh\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\offboarding.spec.js",
-                        "column": 17,
-                        "line": 132
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "9d35fb4153f23f246cd1-37152633f22bf6a325b7",
+              "id": "9d35fb4153f23f246cd1-939a5e9009314c149cf4",
               "file": "anh/tests/offboarding.spec.js",
               "line": 127,
               "column": 3
@@ -1854,21 +1776,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18444,
+                      "duration": 17587,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:07:24.221Z",
+                      "startTime": "2026-11-13T09:33:27.216Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----9510d--thị-danh-sách-Exit-Process-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----9510d--thị-danh-sách-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1878,7 +1800,7 @@
               ],
               "id": "9d35fb4153f23f246cd1-36577c5cbccb40d192c4",
               "file": "anh/tests/offboarding.spec.js",
-              "line": 137,
+              "line": 139,
               "column": 3
             },
             {
@@ -1894,21 +1816,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17944,
+                      "duration": 17754,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:07:42.760Z",
+                      "startTime": "2026-11-13T09:33:44.814Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----d0e56-n-thị-nội-dung-Exit-Process-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----d0e56-n-thị-nội-dung-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1918,7 +1840,7 @@
               ],
               "id": "9d35fb4153f23f246cd1-9d3492829a1a6998bfeb",
               "file": "anh/tests/offboarding.spec.js",
-              "line": 145,
+              "line": 147,
               "column": 3
             },
             {
@@ -1934,21 +1856,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17166,
+                      "duration": 17031,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:08:00.713Z",
+                      "startTime": "2026-11-13T09:34:02.581Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----eaad7-y-lại-List-sau-khi-xem-Card-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----eaad7-y-lại-List-sau-khi-xem-Card-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1958,7 +1880,7 @@
               ],
               "id": "9d35fb4153f23f246cd1-c5633f173cbce2bbf671",
               "file": "anh/tests/offboarding.spec.js",
-              "line": 154,
+              "line": 156,
               "column": 3
             },
             {
@@ -1974,21 +1896,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18115,
+                      "duration": 16357,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:08:17.888Z",
+                      "startTime": "2026-11-13T09:34:19.621Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----cff42-ể-mở-nếu-giao-diện-cung-cấp-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----cff42-ể-mở-nếu-giao-diện-cung-cấp-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1998,7 +1920,7 @@
               ],
               "id": "9d35fb4153f23f246cd1-04e176cd785f093ecead",
               "file": "anh/tests/offboarding.spec.js",
-              "line": 164,
+              "line": 166,
               "column": 3
             },
             {
@@ -2014,21 +1936,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19038,
+                      "duration": 19907,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:08:36.016Z",
+                      "startTime": "2026-11-13T09:34:35.987Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----1f585-giữ-đúng-trang-Exit-Process-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----1f585-giữ-đúng-trang-Exit-Process-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2038,7 +1960,7 @@
               ],
               "id": "9d35fb4153f23f246cd1-6eb5477151908ec02cdf",
               "file": "anh/tests/offboarding.spec.js",
-              "line": 173,
+              "line": 175,
               "column": 3
             },
             {
@@ -2054,21 +1976,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 20378,
+                      "duration": 21799,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:08:55.065Z",
+                      "startTime": "2026-11-13T09:34:55.905Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\offboarding-Offboarding----7df4d-ang-không-làm-mất-giao-diện-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\offboarding-Offboarding----7df4d-ang-không-làm-mất-giao-diện-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2078,7 +2000,7 @@
               ],
               "id": "9d35fb4153f23f246cd1-bf2d40c5eeb334b98308",
               "file": "anh/tests/offboarding.spec.js",
-              "line": 182,
+              "line": 184,
               "column": 3
             }
           ]
@@ -2111,21 +2033,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15978,
+                      "duration": 16741,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:09:15.462Z",
+                      "startTime": "2026-11-13T09:35:17.732Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-60dd5-o-ON01---Mở-Onboarding-View-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2151,21 +2073,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16447,
+                      "duration": 17065,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:09:31.448Z",
+                      "startTime": "2026-11-13T09:35:34.487Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-07e30-View-hiển-thị-vùng-nội-dung-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2191,21 +2113,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16701,
+                      "duration": 15456,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:09:47.903Z",
+                      "startTime": "2026-11-13T09:35:51.560Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-1dbfe-không-hiển-thị-lỗi-ứng-dụng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2231,21 +2153,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15732,
+                      "duration": 17232,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:10:04.611Z",
+                      "startTime": "2026-11-13T09:36:07.024Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-cd8ae-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2271,21 +2193,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15744,
+                      "duration": 16167,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:10:20.350Z",
+                      "startTime": "2026-11-13T09:36:24.264Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-a74e5-mo-ON05---Mở-Candidate-View-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2311,21 +2233,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15200,
+                      "duration": 17487,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:10:36.090Z",
+                      "startTime": "2026-11-13T09:36:40.439Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-87422-h-sách-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2351,21 +2273,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15607,
+                      "duration": 16169,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:10:51.298Z",
+                      "startTime": "2026-11-13T09:36:57.933Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-3c72a--View-có-cấu-trúc-thông-tin-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2391,21 +2313,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16023,
+                      "duration": 17690,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:11:06.911Z",
+                      "startTime": "2026-11-13T09:37:14.110Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-6969a-ếu-ô-tìm-kiếm-được-hiển-thị-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2431,21 +2353,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15844,
+                      "duration": 17128,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:11:22.942Z",
+                      "startTime": "2026-11-13T09:37:31.810Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-6291f-ợc-bộ-lọc-nếu-có-nút-Filter-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2471,21 +2393,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 27808,
+                      "duration": 28615,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:11:38.802Z",
+                      "startTime": "2026-11-13T09:37:48.948Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-d8a6d-te-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2511,21 +2433,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 26992,
+                      "duration": 28572,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:12:06.618Z",
+                      "startTime": "2026-11-13T09:38:17.573Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-f4a39-ng-View-không-phát-sinh-lỗi-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2551,21 +2473,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15961,
+                      "duration": 16198,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:12:33.623Z",
+                      "startTime": "2026-11-13T09:38:46.152Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-4ae90--hoặc-tiến-trình-onboarding-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-4ae90--hoặc-tiến-trình-onboarding-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2591,21 +2513,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15780,
+                      "duration": 16104,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:12:49.597Z",
+                      "startTime": "2026-11-13T09:39:02.357Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-5d205-i-đoạn-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-5d205-i-đoạn-hoặc-trạng-thái-rỗng-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2631,21 +2553,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15474,
+                      "duration": 16998,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:13:05.386Z",
+                      "startTime": "2026-11-13T09:39:18.467Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-833f3-c-trường-thông-tin-ứng-viên-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-833f3-c-trường-thông-tin-ứng-viên-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2671,21 +2593,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 23730,
+                      "duration": 18025,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:13:20.868Z",
+                      "startTime": "2026-11-13T09:39:35.472Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-e9eb4-iển-thị-và-có-thể-nhập-liệu-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-e9eb4-iển-thị-và-có-thể-nhập-liệu-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2711,21 +2633,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18126,
+                      "duration": 18848,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:13:44.616Z",
+                      "startTime": "2026-11-13T09:39:53.506Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-2e207-tồn-tại-không-làm-lỗi-trang-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-2e207-tồn-tại-không-làm-lỗi-trang-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2751,21 +2673,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18071,
+                      "duration": 17691,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:14:02.759Z",
+                      "startTime": "2026-11-13T09:40:12.365Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-f64fd--từ-khóa-tìm-kiếm-Candidate-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-f64fd--từ-khóa-tìm-kiếm-Candidate-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2791,21 +2713,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17057,
+                      "duration": 18257,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:14:20.844Z",
+                      "startTime": "2026-11-13T09:40:30.067Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-5a295-ển-thị-các-trường-nhập-liệu-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-5a295-ển-thị-các-trường-nhập-liệu-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2820,7 +2742,7 @@
             },
             {
               "title": "ON19 - Đóng bảng bộ lọc Candidate",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -2831,65 +2753,26 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 25986,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    24 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    24 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n    at closeFilterPanel (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:166:59)\n    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:150:5",
-                        "location": {
-                          "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                          "column": 59,
-                          "line": 166
-                        },
-                        "snippet": "\u001b[90m   at \u001b[39manh\\tests\\helpers.js:166\n\n\u001b[0m \u001b[90m 164 |\u001b[39m   \u001b[90m// Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.\u001b[39m\n \u001b[90m 165 |\u001b[39m   \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mevaluate((element) \u001b[33m=>\u001b[39m element\u001b[33m.\u001b[39mclick())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 166 |\u001b[39m   \u001b[36mawait\u001b[39m expect(panel \u001b[33m||\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".oh-filter-panel\"\u001b[39m))\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 167 |\u001b[39m }\n \u001b[90m 168 |\u001b[39m\n \u001b[90m 169 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                            "column": 59,
-                            "line": 166
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\nExpected: hidden\nReceived: visible\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeHidden\" getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first() with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /^filter\\b/i }).first().locator('xpath=ancestor::div[.//input or .//select or .//textarea][1]').first()\u001b[22m\n\u001b[2m    24 × locator resolved to <div id=\"modernFilterPanel\" class=\"oh-filter-panel\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39manh\\tests\\helpers.js:166\n\n\u001b[0m \u001b[90m 164 |\u001b[39m   \u001b[90m// Gọi click trực tiếp trên DOM vì locator.click không thể cuộn nút vào viewport ở một số layout.\u001b[39m\n \u001b[90m 165 |\u001b[39m   \u001b[36mawait\u001b[39m close\u001b[33m.\u001b[39mevaluate((element) \u001b[33m=>\u001b[39m element\u001b[33m.\u001b[39mclick())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 166 |\u001b[39m   \u001b[36mawait\u001b[39m expect(panel \u001b[33m||\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".oh-filter-panel\"\u001b[39m))\u001b[33m.\u001b[39mtoBeHidden({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 167 |\u001b[39m }\n \u001b[90m 168 |\u001b[39m\n \u001b[90m 169 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m assertNoApplicationError(page) {\u001b[0m\n\u001b[2m    at closeFilterPanel (D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js:166:59)\u001b[22m\n\u001b[2m    at D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\onboarding.spec.js:150:5\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 18539,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:14:37.912Z",
+                      "startTime": "2026-11-13T09:40:48.334Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\\video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\\trace.zip"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-039e4--Đóng-bảng-bộ-lọc-Candidate-anh\\test-finished-1.png"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\anh\\tests\\helpers.js",
-                        "column": 59,
-                        "line": 166
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "289937b78f21fd60af7e-d2883cffa0dee02a5eee",
@@ -2910,21 +2793,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18400,
+                      "duration": 17927,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:15:04.972Z",
+                      "startTime": "2026-11-13T09:41:06.885Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-31217-u-danh-sách-hỗ-trợ-checkbox-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-31217-u-danh-sách-hỗ-trợ-checkbox-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2950,21 +2833,21 @@
                   "projectName": "anh",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19549,
+                      "duration": 20606,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-12T18:15:23.488Z",
+                      "startTime": "2026-11-13T09:41:24.824Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-12T17-56-34-980Z\\onboarding-Onboarding---ph-8d18f-ding-View-và-Candidate-View-anh\\test-finished-1.png"
+                          "path": "D:\\University\\Nam4\\Test\\Project\\TestingProject\\Automation Testing Project - Group 12\\test-results\\2026-11-13T09-21-54-328Z\\onboarding-Onboarding---ph-8d18f-ding-View-và-Candidate-View-anh\\test-finished-1.png"
                         }
                       ]
                     }
@@ -2984,11 +2867,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-12T17:56:34.984Z",
-    "duration": 1148175.769,
-    "expected": 58,
+    "startTime": "2026-11-13T09:21:54.391Z",
+    "duration": 1191398.396,
+    "expected": 61,
     "skipped": 0,
-    "unexpected": 5,
+    "unexpected": 2,
     "flaky": 0
   }
 }
